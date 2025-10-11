@@ -6,7 +6,7 @@ A Foundry implementation of the UA2025-ThePsion document released on D&amp;DBeyo
 
 # Features
 * Full class and subclass integration in the FoundryVTT compendium system including subclass spell lists.
-* Support for all combinations of the scaling Reanimated Companion stat block
+* Support for all combinations of the scaling Reanimated Companion stat block (Requires the Artificier from a source such as the [Tasha's module](https://foundryvtt.com/packages/dnd-tashas-cauldron))
 * Scaling Spirits from Beyond table integrated and well as double rolling at level 14
 
 ## Journal View & Compendia
