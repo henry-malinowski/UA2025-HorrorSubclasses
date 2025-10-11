@@ -2,7 +2,7 @@
   "id": "UA2025-HorrorSubclasses",
   "title": "UA2025: Horror Subclasses",
   "description": "A Foundry implementation of the UA-HorrorSubclasses document released on D&DBeyond",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -122,6 +122,6 @@
 	"bugs": "https://github.com/henry-malinowski/UA2025-HorrorSubclasses/-/issues",
 	"url": "https://github.com/henry-malinowski/UA2025-HorrorSubclasses",
 	"manifest": "https://raw.githubusercontent.com/henry-malinowski/UA2025-HorrorSubclasses/refs/heads/main/module.json",
-	"download": "https://github.com/henry-malinowski/UA2025-HorrorSubclasses/releases/download/v1.0.0/module.zip"
+	"download": "https://github.com/henry-malinowski/UA2025-HorrorSubclasses/releases/download/v1.0.1/module.zip"
 }
       
