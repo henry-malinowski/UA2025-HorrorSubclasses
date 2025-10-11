@@ -1,0 +1,4 @@
+# ignore log files
+packs/**/LOG
+packs/**/LOG.old
+packs/**/*.log

@@ -1,0 +1,127 @@
+{
+  "id": "UA2025-HorrorSubclasses",
+  "title": "UA2025: Horror Subclasses",
+  "description": "A Foundry implementation of the UA-HorrorSubclasses document released on D&DBeyond",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/UA2025-HorrorSubclasses/assets/journal-art/ua-setup-cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": [
+    "scripts/ua2025-horror-subclasses.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.1.0",
+          "verified": "5.1.9"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module"
+      }
+    ],
+    "optional": [
+      {
+        "id": "dnd-tashas-cauldron",
+        "type": "module"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Henry Malinowski",
+      "discord": "hmalinowski",
+      "url": "https://henry-malinowski.github.io/5eUA-for-FoundryVTT/"
+    }
+  ],
+  "packs": [    
+    {
+      "name": "content",
+      "label": "Horror Subclasses UA Document",
+      "path": "packs/content",
+      "type": "JournalEntry",
+      "banner": "modules/UA2025-HorrorSubclasses/assets/compendium/banner-01.webp",
+      "system": "dnd5e"
+    },
+    {
+      "name": "classes",
+      "label": "Character Subclasses",
+      "path": "packs/classes",
+      "type": "Item",
+      "banner": "modules/UA2025-HorrorSubclasses/assets/compendium/banner-02.webp",
+      "system": "dnd5e"
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "banner": "modules/UA2025-HorrorSubclasses/assets/compendium/banner-03.webp",
+      "system": "dnd5e"
+    },
+    {
+      "name": "tables",
+      "label": "Roll Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "banner": "modules/UA2025-HorrorSubclasses/assets/compendium/banner-04.webp",
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "UA2025-HorrorSubclasses",
+      "color": "#6fa3b1",
+      "sorting": "m",
+      "packs": [
+        "content",
+        "classes",
+        "actors",
+        "tables"
+      ]
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "UA2025-HorrorSubclasses": "SOURCE.UA.2025.HORRORSUBCLASSES"
+      },
+      "spellLists": [
+        "Compendium.UA2025-HorrorSubclasses.content.JournalEntry.sK9JTkuw5ju15YCz.JournalEntryPage.DF1JVG9eRSwociZ0",
+        "Compendium.UA2025-HorrorSubclasses.content.JournalEntry.sK9JTkuw5ju15YCz.JournalEntryPage.6qSpNwoFzVpMLtse",
+        "Compendium.UA2025-HorrorSubclasses.content.JournalEntry.sK9JTkuw5ju15YCz.JournalEntryPage.iZi7CAEjBE5zuvxz",
+        "Compendium.UA2025-HorrorSubclasses.content.JournalEntry.sK9JTkuw5ju15YCz.JournalEntryPage.1slnaMQCKg9JpOLF",
+        "Compendium.UA2025-HorrorSubclasses.content.JournalEntry.sK9JTkuw5ju15YCz.JournalEntryPage.KpdtCizmMtbYlw96",
+        "Compendium.UA2025-HorrorSubclasses.content.JournalEntry.sK9JTkuw5ju15YCz.JournalEntryPage.CUExM3bP70IAYA0o"
+      ]
+    }
+  },
+	"readme": "https://github.com/henry-malinowski/UA2025-HorrorSubclasses/main/Readme.md",
+	"bugs": "https://github.com/henry-malinowski/UA2025-HorrorSubclasses/-/issues",
+	"url": "https://github.com/henry-malinowski/UA2025-HorrorSubclasses",
+	"manifest": "https://raw.githubusercontent.com/henry-malinowski/UA2025-HorrorSubclasses/refs/heads/main/module.json",
+	"download": "https://github.com/henry-malinowski/UA2025-HorrorSubclasses/releases/download/v1.0.0/module.zip"
+}
+      
