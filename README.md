@@ -2,7 +2,7 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/henry-malinowski/UA2025-HorrorSubclasses/total)
 
 # UA2025-HorrorSubclasses
-A Foundry implementation of the UA2025-ThePsion document released on D&amp;DBeyond
+A Foundry implementation of the UA2025-HorrorSubclasses document released on D&amp;DBeyond
 
 # Features
 * Full class and subclass integration in the FoundryVTT compendium system including subclass spell lists.
