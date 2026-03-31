@@ -1,0 +1,13 @@
+{
+	"scripts": {
+		"build:db": "bun ./utils/packs.mjs package pack",
+		"build:source": "bun ./utils/packs.mjs package unpack",
+		"build:clean": "bun ./utils/packs.mjs package clean"
+	},
+	"devDependencies": {
+		"@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4",
+		"fancy-log": "^2.0.0",
+		"js-yaml": "^4.1.0",
+		"yargs": "^17.7.2"
+	}
+}
