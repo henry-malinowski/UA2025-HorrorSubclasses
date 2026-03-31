@@ -1,4 +1,6 @@
-# ignore log files
-packs/**/LOG
-packs/**/LOG.old
-packs/**/*.log
+# Compiled LevelDB packs (generated from packs/_source/)
+packs/*
+!packs/_source/
+
+# Node
+node_modules/
