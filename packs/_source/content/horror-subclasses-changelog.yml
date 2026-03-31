@@ -76,8 +76,10 @@ pages:
         UUIDs are now noted in the compendium-names.md file and are
         deterministic going forward</p><ul><li><p>This is a breaking
         change</p></li></ul></li><li><p>Journal's now pull from the official PHB
-        styling</p></li></ul><h3>Fixed</h3><ul><li><p>Scripts now uses proper
-        `.mjs` file extension</p></li></ul>
+        styling</p></li></ul><h3>Fixed</h3><ul><li><p>Script now uses proper
+        `.mjs` file extension</p></li><li><p>Missing <strong>Reanimated
+        Companion</strong> creature links</p></li><li><p>Missing Use activity on
+        <em>Spirits from Beyond</em></p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -92,7 +94,8 @@ pages:
       coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.2.5
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1774988780636
     _key: '!journal.pages!uaChangelog00000.fqUCLiT4mdLYQ80D'
 folder: null
 categories: []
