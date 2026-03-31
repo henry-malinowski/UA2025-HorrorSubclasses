@@ -1,0 +1,173 @@
+folder: 6HTnBH2o6rIGNPxn
+name: Life Stealer
+type: feat
+_id: uawlkLifeStealer
+img: icons/magic/death/skull-energy-light-purple.webp
+system:
+  activities:
+    fL09f8j7w3xxKHi4:
+      type: heal
+      name: Hungering Hex
+      _id: fL09f8j7w3xxKHi4
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: Whenever the target cursed by your Hex drops to 0 Hit Points
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1d8+@abilities.cha.mod
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    mjKUm8ZBtkx2bVkD:
+      type: damage
+      name: Inevitable Blade
+      _id: mjKUm8ZBtkx2bVkD
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: Once per turn
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: max(1,@abilities.cha.mod)
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your patron’s might allows you to drain vitality from those you curse,
+      granting you the following benefits.</p><p><em><strong>Hungering
+      Hex.</strong></em> Whenever the target cursed by your Hex drops to 0 Hit
+      Points, you regain Hit Points equal to [[/heal]]{1d8 plus your Charisma
+      modifier}.</p><p><em><strong>Inevitable Blade.</strong></em> Once per
+      turn, if you make an attack roll against the target cursed by your Hex and
+      miss, you can deal Necrotic damage to that creature equal to your Charisma
+      modifier (minimum of 1 Necrotic damage).</p>
+    chat: ''
+  identifier: life-stealer
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '8'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982514038
+  modifiedTime: 1774982514038
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkLifeStealer'

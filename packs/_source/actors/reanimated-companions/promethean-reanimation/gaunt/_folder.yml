@@ -1,0 +1,17 @@
+type: Actor
+folder: k9DMWwzwJCjiFAqv
+name: Gaunt
+color: null
+sorting: a
+_id: u8R5HBCRgyrtcXmJ
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  lastModifiedBy: null
+_key: '!folders!u8R5HBCRgyrtcXmJ'

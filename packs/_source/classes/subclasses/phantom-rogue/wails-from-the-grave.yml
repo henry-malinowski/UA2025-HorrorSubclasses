@@ -1,0 +1,175 @@
+folder: cqfS7YyKHalYt48Z
+name: Wails from the Grave
+type: feat
+_id: uargeWailsfromth
+img: icons/skills/ranged/dagger-thrown-jeweled-purple.webp
+system:
+  activities:
+    3qewvCRO4HyFUnHH:
+      type: damage
+      _id: 3qewvCRO4HyFUnHH
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          Immediately after you deal your Sneak Attack damage to a creature on
+          your turn
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '@scale.wails-from-the-grave.targets'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.wails-from-the-grave.wails-from-the-grave-damage'
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              number: 1
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: max(1,@abilities.dex.mod)
+  advancement:
+    - type: ScaleValue
+      title: Targets
+      _id: ve3L8Hbb1euTjh3v
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 1
+          '17':
+            value: 2
+      value: {}
+      hint: ''
+    - type: ScaleValue
+      title: Wails from the Grave Damage
+      _id: WxOBq1J0YG44F7bW
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: 1
+            faces: 6
+            modifiers: []
+          '5':
+            number: 2
+            faces: 6
+            modifiers: []
+          '9':
+            number: 3
+            faces: 6
+            modifiers: []
+          '13':
+            number: 4
+            faces: 6
+            modifiers: []
+          '17':
+            number: 5
+            faces: 6
+            modifiers: []
+      value: {}
+      hint: ''
+  description:
+    value: >-
+      <p>Immediately after you deal your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeSneakAttac]{Sneak
+      Attack} damage to a creature on your turn, you can target a second
+      creature that you can see within 30 feet of the first creature. Roll half
+      the number of Sneak Attack dice for your level (round up), and the second
+      creature takes Necrotic damage equal to the roll’s total as wails of the
+      dead momentarily sound around them.</p><p>You can use this feature a
+      number of times equal to your Dexterity modifier (minimum of once), and
+      you regain all expended uses when you finish a &amp;Reference[Long
+      Rest].</p>
+    chat: ''
+  identifier: wails-from-the-grave
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Phantom
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982627414
+  modifiedTime: 1774982627414
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeWailsfromth'

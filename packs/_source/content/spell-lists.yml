@@ -1,0 +1,283 @@
+name: Spell lists
+_id: uaSpelllists0000
+pages:
+  - sort: 100000
+    name: 'Artificer: Reanimator'
+    type: spells
+    _id: DF1JVG9eRSwociZ0
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy
+        - Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+        - Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAnimateDea
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLightningB
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAntilifeSh
+        - Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0
+      unlinkedSpells: []
+      identifier: reanimator
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSpelllists0000.DF1JVG9eRSwociZ0'
+  - sort: 200000
+    name: 'Cleric: Grave Domain'
+    type: spells
+    _id: 6qSpNwoFzVpMLtse
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil
+        - Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee
+        - Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste
+        - Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0
+      unlinkedSpells: []
+      identifier: grave
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSpelllists0000.6qSpNwoFzVpMLtse'
+  - sort: 300000
+    name: 'Ranger: Hollow Warden'
+    type: spells
+    _id: iZi7CAEjBE5zuvxz
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAwaken0000
+      unlinkedSpells: []
+      identifier: hollow-warden
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSpelllists0000.iZi7CAEjBE5zuvxz'
+  - sort: 400000
+    name: 'Sorcerer: Shadow Sorcery'
+    type: spells
+    _id: 1slnaMQCKg9JpOLF
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde
+        - Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal
+        - Compendium.dnd-players-handbook.spells.Item.phbsplContagion0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCreation00
+      unlinkedSpells: []
+      identifier: shadow
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSpelllists0000.1slnaMQCKg9JpOLF'
+  - sort: 500000
+    name: 'Warlock: Hexblade Patron'
+    type: spells
+    _id: KpdtCizmMtbYlw96
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplArcaneVigo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplShield0000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm
+        - Compendium.dnd-players-handbook.spells.Item.phbsplConjureBar
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM
+        - Compendium.dnd-players-handbook.spells.Item.phbsplStaggering
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS
+      unlinkedSpells: []
+      identifier: hexblade
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSpelllists0000.KpdtCizmMtbYlw96'
+  - sort: 600000
+    name: 'Warlock: Undead Patron'
+    type: spells
+    _id: CUExM3bP70IAYA0o
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0
+        - Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor
+        - Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD
+        - Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAntilifeSh
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCloudkill0
+      unlinkedSpells: []
+      identifier: undead
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSpelllists0000.CUExM3bP70IAYA0o'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982283484
+  modifiedTime: 1774982283484
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaSpelllists0000'

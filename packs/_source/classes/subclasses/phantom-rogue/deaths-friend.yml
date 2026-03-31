@@ -1,0 +1,207 @@
+folder: cqfS7YyKHalYt48Z
+name: Death's Friend
+type: feat
+_id: uargeDeathsFrien
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+system:
+  activities:
+    pTbAKpG99fCD18HP:
+      type: utility
+      _id: pTbAKpG99fCD18HP
+      sort: 100000
+      activation:
+        type: encounter
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: initiative
+            type: formula
+            formula: '1'
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Regain on Initiative Roll
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    meauYi73ajgWS9bB:
+      type: enchant
+      _id: meauYi73ajgWS9bB
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: h1OxCbky0DyFFbt9
+          level:
+            min: 17
+          riders:
+            activity:
+              - pTbAKpG99fCD18HP
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: feat
+      name: ''
+      visibility:
+        identifier: rogue
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      flags: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your association with death has become so close that you gain the
+      following benefits.</p><p><em><strong>Death’s Lament.</strong></em> When
+      you use your
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uargeWailsfromth]{Wails
+      from the Grave} feature, you can deal the Necrotic damage to both the
+      first and the second creature.</p><p><em><strong>Draw of
+      Death.</strong></em> When you roll &amp;Reference[Initiative], you regain
+      one soul trinket for your Tokens of the Departed if you have none
+      remaining.</p><section class="secret"
+      id="secret-ajEJoxT1VUZKXWql"><p><strong>Foundry Note</strong></p><p>This
+      feature includes an <strong>Enchant</strong> activity which will add a
+      prompt to add 1 use when you roll initiative with no uses
+      remaining.</p></section>
+    chat: ''
+  identifier: deaths-friend
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '7'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+  properties:
+    - trait
+  requirements: Phantom
+  type:
+    value: class
+    subtype: ''
+effects:
+  - type: enchantment
+    name: Death's Friend
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    disabled: true
+    _id: h1OxCbky0DyFFbt9
+    system: {}
+    changes: []
+    duration:
+      startTime: null
+      combat: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uargeDeathsFrien.h1OxCbky0DyFFbt9'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - pTbAKpG99fCD18HP
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982598636
+  modifiedTime: 1774982627511
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeDeathsFrien'

@@ -1,0 +1,152 @@
+folder: mOgzy3zO2mfQhr5O
+name: Hungering Might
+type: feat
+_id: uargrHungeringMi
+img: icons/magic/death/skull-energy-light-purple.webp
+system:
+  activities:
+    ncBKnRPjvVvQTtj4:
+      type: heal
+      _id: ncBKnRPjvVvQTtj4
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          When you hit a creature with an attack roll while Bloodied and
+          transformed using Wrath of the Wild
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1d10+@abilities.wis.mod
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You gain a bonus to Constitution saving throws equal to your Wisdom
+      modifier (minimum of +1).</p><p>In addition, once per turn when you hit a
+      creature with an attack roll while you are transformed using
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uargrWrathoftheW]{Wrath
+      of the Wild}, you regain a number of Hit Points equal to 1d10 plus your
+      Wisdom modifier, provided you are &amp;Reference[Bloodied] when you
+      hit.</p>
+    chat: ''
+  identifier: hungering-might
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: Hollow Warden
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Hungering Might
+    img: icons/magic/death/skull-energy-light-purple.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uargrHungeringMi
+    _id: pS3QBC8SBfHDfiq1
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.con.bonuses.save
+        mode: 2
+        value: max(1,@abilities.wis.mod)
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uargrHungeringMi.pS3QBC8SBfHDfiq1'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982547107
+  modifiedTime: 1774982559237
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargrHungeringMi'

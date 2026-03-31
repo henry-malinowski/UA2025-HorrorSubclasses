@@ -1,0 +1,126 @@
+folder: laQmRsQxeJCZlvCJ
+name: Promethean Reanimation
+type: feat
+_id: uaartPrometheanR
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+system:
+  activities:
+    PiNr2tj4QdXFOihn:
+      type: heal
+      name: Life Transfer
+      _id: PiNr2tj4QdXFOihn
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: When you take damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@classes.artificier.levels'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You have mastered the science of revivification, granting you the
+      following benefits.</p><p><em><strong>Facilitated Revival.</strong></em>
+      When you cast <em>Revivify</em> or <em>Raise Dead</em>, the cost of any
+      &amp;Reference[Material]{Material} components needed for that spell is
+      halved.</p><p><em><strong>Improved Companion.</strong></em> The damage of
+      your
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uaartReanimatedC]{Reanimated
+      Companion’s}
+      @UUID[Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompTemplate00.Item.0eBNLjj2M0kVJFRU]{Death
+      Burst} increases to [[/damage 4d6 necrotic]]{4d6}. Necrotic damage dealt
+      by your companion ignores Resistance.</p><p><em><strong>Life
+      Transfer.</strong></em> You can siphon the animating magic of your
+      companion to bolster yourself. When you take damage, you can take a
+      &amp;Reference[Reaction]{Reaction} to cause your Reanimated Companion to
+      drop to 0 Hit Points. The companion immediately dies (triggering its Death
+      Burst trait), and you [[/healing @classes.artificer.levels]]{regain a
+      number of Hit Points} equal to your Artificer level.</p><section
+      class="secret" id="secret-rBWUASQ7jg8xbZYr"><p><strong>Foundry
+      Note</strong></p><p>Your Improved Reanimation automatically improves when
+      you gain this feature.</p></section>
+    chat: ''
+  identifier: promethean-reanimation
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '2'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: Reanimator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983365563
+  modifiedTime: 1774984311847
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaartPrometheanR'

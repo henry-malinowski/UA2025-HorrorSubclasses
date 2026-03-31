@@ -1,0 +1,283 @@
+folder: swutpu2Fy3CKZGZ0
+name: Necrotic Husk
+type: feat
+_id: uawlkNecroticHus
+img: icons/magic/death/skull-sand-white-yellow.webp
+system:
+  activities:
+    XpsY0SiYez6qIAWx:
+      type: heal
+      name: Unholy Resuscitation (Heal)
+      _id: XpsY0SiYez6qIAWx
+      sort: 200000
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: max(10,10*@abilities.cha.mod)
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    PyQhuiYOoRtukPRL:
+      type: save
+      name: Unholy Resuscitation (Save)
+      _id: PyQhuiYOoRtukPRL
+      sort: 100000
+      activation:
+        type: special
+        override: false
+        condition: If you drop to 0 Hit Points and don’t die outright
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: 2d10+@classes.warlock.levels
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              number: 1
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    eeqyeQZg7XGb9PKQ:
+      type: utility
+      name: Necrotic Resilience
+      _id: eeqyeQZg7XGb9PKQ
+      sort: 300000
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: e6p2gJiuheZfGqA8
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Your connection to undeath now saturates your body. You gain the
+      following benefits.</p><p><em><strong>Necrotic Resilience.</strong></em>
+      You have Resistance to Necrotic damage. While using your
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkFormofDread]{Form
+      of Dread}, you have Immunity to Necrotic damage.</p><p><em><strong>Unholy
+      Resuscitation.</strong></em> If you drop to 0 Hit Points and don’t die
+      outright, you can cause your body to erupt with deathly energy. Each
+      creature of your choice in a 30-foot Emanation originating from you makes
+      a Constitution saving throw against your spell save DC, taking Necrotic
+      damage equal to 2d10 plus your Warlock level on a failure or half as much
+      damage on a success. Your Hit Points then change to 10 times your Charisma
+      modifier (minimum of 10 Hit Points), and you gain 1
+      &amp;Reference[Exhaustion] level.</p><p>Once you use this benefit, you
+      can’t use it again until you finish a Short or Long Rest.</p>
+    chat: ''
+  identifier: necrotic-husk
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '9'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: Undead Patron
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Necrotic Resilience
+    img: icons/magic/death/skull-sand-white-yellow.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkNecroticHus
+    transfer: false
+    _id: e6p2gJiuheZfGqA8
+    type: base
+    system: {}
+    changes:
+      - key: ''
+        mode: 2
+        value: ''
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uawlkNecroticHus.e6p2gJiuheZfGqA8'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983454250
+  modifiedTime: 1774983454348
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkNecroticHus'

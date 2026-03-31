@@ -1,0 +1,112 @@
+folder: bw7ASrQOvmFNLZNB
+name: Spirit of Ill Omen
+type: feat
+_id: uasrcSpiritofIll
+img: icons/magic/death/skull-weapon-staff-glow-pink.webp
+system:
+  activities:
+    vu1TfpFiKG4Y3eAz:
+      type: cast
+      _id: vu1TfpFiKG4Y3eAz
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde
+        ability: ''
+        level: 3
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>You can cast <em>Summon Undead</em> without a
+      &amp;Reference[Material]{Material} component. You can also cast it once
+      without a spell slot, and you regain the ability to cast it in this way
+      when you finish a &amp;Reference[Long Rest].</p><p>Whenever you start
+      casting the spell, you can modify it so that it doesn’t require
+      &amp;Reference[Concentration]. If you do so, the spell’s duration becomes
+      1 minute for that casting, and the spell ends early if you cast it
+      again.</p>
+    chat: ''
+  identifier: spirit-of-ill-omen
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '7'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: Shadow Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983421604
+  modifiedTime: 1774983421604
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcSpiritofIll'

@@ -1,0 +1,126 @@
+folder: mOgzy3zO2mfQhr5O
+name: Ancient Endurance
+type: feat
+_id: uargrAncientEndu
+img: icons/magic/death/skeleton-worn-skull-tan.webp
+system:
+  activities:
+    LV78MTc2ZG7FgVpG:
+      type: heal
+      _id: LV78MTc2ZG7FgVpG
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          you drop to 0 Hit Points while transformed using Wrath of the Wild and
+          don’t die outright
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '4'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 5*@scaling
+        scaling:
+          number: 1
+          mode: ''
+          formula: ''
+        number: null
+        denomination: null
+        bonus: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You become wholly suffused with the forest’s ancient power, granting
+      you the following benefits.</p><p><em><strong>Persistent
+      Hunt.</strong></em> If you drop to 0 Hit Points while transformed using
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uargrWrathoftheW]{Wrath
+      of the Wild} and don’t die outright, you can expend a level 4+ spell slot
+      (no action required). Your Hit Points then instead change to an amount
+      equal to five times the level of the spell slot
+      expended.</p><p><em><strong>Timeless.</strong></em> You have Immunity to
+      the &amp;Reference[Exhaustion apply=false] condition.</p>
+    chat: ''
+  identifier: ancient-endurance
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: Hollow Warden
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982534643
+  modifiedTime: 1774982559237
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargrAncientEndu'

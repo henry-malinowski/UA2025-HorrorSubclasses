@@ -1,0 +1,62 @@
+folder: swutpu2Fy3CKZGZ0
+name: Grave Touched
+type: feat
+_id: uawlkGraveTouche
+img: icons/magic/death/hand-undead-skeleton-fire-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your patron’s powers have a profound effect on your body and magic,
+      granting you the following benefits. </p><p><em><strong>Arcane
+      Necrosis.</strong></em> Whenever you cast a spell or hit a creature with
+      an attack roll and deal Necrotic damage, the damage dealt ignores
+      Resistance to Necrotic damage.</p><p>Additionally, once per turn when you
+      cast a spell that deals damage while using your
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkFormofDread]{Form
+      of Dread}, you can change that spell’s damage type to
+      Necrotic.</p><p><em><strong>Undead Endurance.</strong></em> You don’t gain
+      &amp;Reference[Exhaustion apply=false] levels from dehydration,
+      malnutrition, or suffocation. In addition, you don’t need to sleep, and
+      magic can’t put you to sleep.</p>
+    chat: ''
+  identifier: grave-touched
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '9'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties:
+    - trait
+  requirements: Undead Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983447093
+  modifiedTime: 1774983447093
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkGraveTouche'

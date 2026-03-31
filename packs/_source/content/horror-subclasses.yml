@@ -1,0 +1,365 @@
+name: Horror Subclasses
+_id: uaHorrorSubclass
+pages:
+  - sort: 100000
+    name: 'Artificier: Reanimator'
+    type: subclass
+    _id: jbqSGCGLba0IDwej
+    system:
+      item: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartReanimator0
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2025-HorrorSubclasses.content.JournalEntry.uaArtHandouts000.JournalEntryPage.fwubDTuCBvrMjyVM
+          cite=false caption=false]</p><blockquote><p>Reassemble Corpses to
+          Raise the Dead</p></blockquote><p>Reanimators defy the laws of nature
+          in pursuit of gruesome experiment. These grim Artificers stitch
+          together servants from disparate corpses, use foul magic to strengthen
+          the living, and transform the art of necromancy into a terrifying
+          science.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.jbqSGCGLba0IDwej'
+  - sort: 200000
+    name: 'Bard: College of Spirits'
+    type: subclass
+    _id: aGg4vn6m0KV23C6e
+    system:
+      item: Compendium.UA2025-HorrorSubclasses.classes.Item.uabrdSpirits0000
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2025-HorrorSubclasses.content.JournalEntry.uaArtHandouts000.JournalEntryPage.I6a6BLlFUFhMIjlr
+          caption=false cite=false]</p><blockquote><p>Call Forth Spirits from
+          Beyond the Grave</p></blockquote><p>Using occult trappings, Bards of
+          the College of Spirits conjure legendary and long-dead spirits to
+          change the world once more. But such entities are capricious, and what
+          a Bard summons isn’t always entirely under their control.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.aGg4vn6m0KV23C6e'
+  - sort: 300000
+    name: 'Cleric: Grave Domain'
+    type: subclass
+    _id: jivl9Z6KjmzO2o62
+    system:
+      item: Compendium.UA2025-HorrorSubclasses.classes.Item.uaclcGraveDomain
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2025-HorrorSubclasses.content.JournalEntry.uaArtHandouts000.JournalEntryPage.qfnB9e3FhizEdgxU
+          caption=false cite=false]</p><blockquote><p>Embody Deific Forces of
+          Death</p></blockquote><p>The Grave Domain concerns itself with the
+          boundary between life and death. To those who tap into this domain’s
+          power, death is a foundational, natural, and inevitable part of the
+          multiverse. Such Clerics seek to destroy Undead and strive to shepherd
+          spirits to the afterlife (whether those spirits want to go or
+          not).</p><p>The magic of this domain also allows these Clerics to
+          stave off death for a time, particularly for those who still have some
+          great work to accomplish in the world. But this is merely a delay of
+          death, not a denial of it, for the grave will always claim its
+          due.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.jivl9Z6KjmzO2o62'
+  - sort: 400000
+    name: 'Ranger: Hollow Warden'
+    type: subclass
+    _id: bFbK4bvmbgNmsOZq
+    system:
+      item: Compendium.UA2025-HorrorSubclasses.classes.Item.uargrHollowWarde
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2025-HorrorSubclasses.content.JournalEntry.uaArtHandouts000.JournalEntryPage.1VcTHPbmwoztgJcU
+          caption=false cite=false]</p><blockquote><p>Draw on the Might of
+          Ancient Wild Terrors</p></blockquote><p>Legends tell that the most
+          ancient and fearsome terrors lurk deep within the old places of the
+          earth—unfathomable and bloodthirsty entities of fallow soil and
+          sharpened claws. Hollow Wardens venerate and draw power from such
+          beings, transforming themselves into similarly merciless and monstrous
+          guardians that stalk along jagged coastlines, across steep mountain
+          crags, and through other dark and wild places.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.bFbK4bvmbgNmsOZq'
+  - sort: 500000
+    name: 'Rogue: Phantom'
+    type: subclass
+    _id: Pi2JppD7TGZbmSn9
+    system:
+      item: Compendium.UA2025-HorrorSubclasses.classes.Item.uargePhantom0000
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2025-HorrorSubclasses.content.JournalEntry.uaArtHandouts000.JournalEntryPage.68wgvbKS2WcxIGxl
+          caption=false cite=false]</p><blockquote><p>Embrace Death and Wield
+          Ghostly Power</p></blockquote><p>Some Rogues walk along the veil
+          between life and death, shepherding opponents to the grave and
+          slipping through the world as undetectable as a spirit. In these
+          pursuits, a Rogue might discover a mystical connection to death
+          itself. Such an individual becomes immersed in negative energy,
+          infusing their strikes with deathly energy and stealing knowledge from
+          souls who have passed on. Thieves’ guilds value Rogues of this
+          persuasion as highly effective information gatherers and spies.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.Pi2JppD7TGZbmSn9'
+  - sort: 600000
+    name: 'Sorcerer: Shadow Sorcery'
+    type: subclass
+    _id: 7PsDPuG82X6GU799
+    system:
+      item: Compendium.UA2025-HorrorSubclasses.classes.Item.uasrcShadowSorce
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2025-HorrorSubclasses.content.JournalEntry.uaArtHandouts000.JournalEntryPage.DMFmsYKJX3aibnJZ
+          caption=false cite=false]</p><blockquote><p>Bend Darkness and Doom to
+          Your Will</p></blockquote><p>Your innate magic comes from the
+          Shadowfell itself. You might trace your lineage to an entity from that
+          place, or perhaps you were exposed to the Shadowfell’s sinister energy
+          and were transformed by it. Your shadowy magic allows you to command
+          darkness, undeath, and woe with ease.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.7PsDPuG82X6GU799'
+  - sort: 700000
+    name: 'Warlock: Hexblade Patron'
+    type: subclass
+    _id: 8PuU2VobgS4zmQ10
+    system:
+      item: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkHexbladePat
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2025-HorrorSubclasses.content.JournalEntry.uaArtHandouts000.JournalEntryPage.55P9YYEOGPwO52RS
+          caption=false cite=false]</p><blockquote><p>Forge a Pact with a Cursed
+          Blade</p></blockquote><p>You’ve made a pact with a sentient magic
+          weapon and the cursed forces contained within its blade. Such a weapon
+          could be the sword sheathed at a Warlock’s side, or it could be an
+          infamous magic weapon stored elsewhere, projecting its power across
+          the multiverse to further its cunning plans. To those who are willing
+          to follow this weapon’s whims, these inscrutable patrons offer the
+          power to bestow malignant curses, deliver punishing blows, and bolster
+          the wielder.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.8PuU2VobgS4zmQ10'
+  - sort: 800000
+    name: 'Warlock: Undead Patron'
+    type: subclass
+    _id: x0GhE6oaLnqORFol
+    system:
+      item: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkUndeadPatro
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2025-HorrorSubclasses.content.JournalEntry.uaArtHandouts000.JournalEntryPage.jVLirMeJn77Vx28Y
+          caption=false cite=false]</p><blockquote><p>Defy Death for Profane
+          Power</p></blockquote><p>You’ve made a pact with a creature that
+          defies the cycle of life and death: a powerful lich, vampire, or other
+          entity of undeath. Having once been mortal themselves, these ancient
+          patrons know firsthand the paths of ambition and the routes past the
+          doors of death. They eagerly share this profane knowledge, along with
+          other secrets, with those who work their will among the living.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.x0GhE6oaLnqORFol'
+  - sort: 900000
+    name: UA2025-HorrorSubclasses PDF
+    type: pdf
+    _id: vsrsh90nolM7j4V8
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-HorrorSubclasses/assets/pdfs/UA2025-HorrorSubclasses.pdf
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaHorrorSubclass.vsrsh90nolM7j4V8'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982265243
+  modifiedTime: 1774982395315
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaHorrorSubclass'

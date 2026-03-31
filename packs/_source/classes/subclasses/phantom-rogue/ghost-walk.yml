@@ -1,0 +1,182 @@
+folder: cqfS7YyKHalYt48Z
+name: Ghost Walk
+type: feat
+_id: uargeGhostWalk00
+img: icons/magic/air/fog-gas-smoke-blue-gray.webp
+system:
+  activities:
+    Q0MgXDNwNPeoF1wl:
+      type: utility
+      _id: Q0MgXDNwNPeoF1wl
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '10'
+      effects:
+        - _id: CYwI0l5xAMZuiOKy
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    IXPwqQxLHbCA7Hgo:
+      type: utility
+      name: Regain Usage
+      _id: IXPwqQxLHbCA7Hgo
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.UA2025-HorrorSubclasses.classes.Item.uargeTokensofthe
+            scaling: {}
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '10'
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>As a Bonus Action, you assume a spectral form, gaining the benefits
+      below for 10 minutes or until you end them (no action required). Once you
+      use this feature, you can’t use it again until you finish a
+      &amp;Reference[Long Rest] unless you expend and destroy one of your soul
+      trinkets from
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uargeTokensofthe]{Tokens
+      of the Departed} (no action required) to restore your use of
+      it.</p><p><em><strong>Flight.</strong></em> You gain a Fly Speed of 10
+      feet and can hover.</p><p><em><strong>Hazy Form.</strong></em> Attack
+      rolls have &amp;Reference[Disadvantage] against
+      you.</p><p><em><strong>Incorporeal Movement.</strong></em> You can move
+      through occupied spaces as if they were &amp;Reference[Difficult Terrain].
+      If you end your turn in such a space, you take [[/damage 1d10 Force]]
+      damage.</p>
+    chat: ''
+  identifier: ghost-walk
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties: []
+  requirements: Phantom
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982605253
+  modifiedTime: 1774982611541
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeGhostWalk00'

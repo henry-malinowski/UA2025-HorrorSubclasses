@@ -1,0 +1,96 @@
+folder: bw7ASrQOvmFNLZNB
+name: Eyes of the Dark
+type: feat
+_id: uasrcEyesoftheDa
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You have &amp;Reference[Darkvision] with a range of 120 feet and
+      &amp;Reference[Blindsight] with a range of 10 feet.</p><p>In addition, if
+      a spell you cast creates an area of Darkness, you can see normally through
+      that spell’s Darkness.</p>
+    chat: ''
+  identifier: eyes-of-the-dark
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '7'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Shadow Sorcery
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Darkvision & Blindsight
+    img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uasrcEyesoftheDa
+    _id: IFpRZb6ZEneaRJSI
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.darkvision
+        mode: 4
+        value: '120'
+        priority: null
+      - key: system.attributes.senses.blindsight
+        mode: 4
+        value: '10'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uasrcEyesoftheDa.IFpRZb6ZEneaRJSI'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983401013
+  modifiedTime: 1774983401110
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcEyesoftheDa'

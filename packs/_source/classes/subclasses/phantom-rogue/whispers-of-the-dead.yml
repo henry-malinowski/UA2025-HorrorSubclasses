@@ -1,0 +1,87 @@
+folder: cqfS7YyKHalYt48Z
+name: Whispers of the Dead
+type: feat
+_id: uargeWhispersoft
+img: icons/magic/control/fear-fright-shadow-monster-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: eRYzXc39KoHRf1Gm
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:*
+        grants: []
+        mode: default
+      level: 3
+      title: Skill Proficiency
+      hint: Choose 1 skill or tool proficiency.
+      value: {}
+    - type: Trait
+      title: Tool Proficiency
+      _id: a69Dv0YQil0gZ2Nj
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+        grants: []
+        mode: default
+      level: 3
+      hint: Choose 1 skill or tool proficiency.
+      value: {}
+  description:
+    value: >-
+      <p>Whenever you finish a &amp;Reference[Short Rest]{Short} or
+      &amp;Reference[Long Rest], you can choose one skill or tool proficiency
+      that you lack and gain it, as a ghostly presence shares its knowledge with
+      you. You lose this proficiency when you use this benefit again to choose a
+      different proficiency.</p><section class="secret"
+      id="secret-jllm6n2ee7CGefRj"><p><strong>Foundry Note</strong></p><p>To
+      change you proficiency, click the kebab icon on the right side of the
+      character sheet and click "Edit". Switch to the Advancement tab. Click the
+      gear icon in the level 3 section.</p></section>
+    chat: ''
+  identifier: whispers-of-the-dead
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Phantom
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982633522
+  modifiedTime: 1774982633522
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeWhispersoft'

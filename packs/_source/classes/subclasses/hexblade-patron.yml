@@ -1,0 +1,106 @@
+folder: VvMY6iaFQ0tkUWcT
+name: Hexblade Patron
+type: subclass
+_id: uawlkHexbladePat
+img: modules/UA2025-HorrorSubclasses/assets/icons/classes/hexblade.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: KPZpNoaInYuriqrz
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkHexbladeMan
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkHexbladeSpe
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: max(1,@abilities.cha.mod)
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: x8dXsFJZUfE8IH1s
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkLifeStealer
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: oH6ij3Jn9cM2hD0C
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkArmorofHexe
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: KkDDnyezgW9gOPH4
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkMasterfulHe
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Forge a Pact with a Cursed Blade</p></blockquote><p>You’ve
+      made a pact with a sentient magic weapon and the cursed forces contained
+      within its blade. Such a weapon could be the sword sheathed at a Warlock’s
+      side, or it could be an infamous magic weapon stored elsewhere, projecting
+      its power across the multiverse to further its cunning plans. To those who
+      are willing to follow this weapon’s whims, these inscrutable patrons offer
+      the power to bestow malignant curses, deliver punishing blows, and bolster
+      the wielder.</p>
+    chat: ''
+  identifier: hexblade
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '7'
+    custom: ''
+    license: ''
+  classIdentifier: warlock
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 175000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982341902
+  modifiedTime: 1774983715506
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkHexbladePat'

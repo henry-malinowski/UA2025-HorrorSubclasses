@@ -1,0 +1,17 @@
+type: Actor
+folder: k9DMWwzwJCjiFAqv
+name: Moist
+color: null
+sorting: a
+_id: oKKCg4Rvxib038LO
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  lastModifiedBy: null
+_key: '!folders!oKKCg4Rvxib038LO'

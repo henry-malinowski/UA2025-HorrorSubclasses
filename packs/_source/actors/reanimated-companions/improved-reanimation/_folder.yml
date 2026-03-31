@@ -1,0 +1,18 @@
+type: Actor
+folder: UtZgIo8hTMpYwWAG
+name: Improved Reanimation
+color: null
+sorting: a
+_id: m9xwqKJgK9Des2rT
+description: ''
+sort: 300000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1760196632146
+_key: '!folders!m9xwqKJgK9Des2rT'

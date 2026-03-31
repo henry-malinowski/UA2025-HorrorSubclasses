@@ -1,0 +1,96 @@
+folder: VvMY6iaFQ0tkUWcT
+name: Reanimator
+type: subclass
+_id: uaartReanimator0
+img: modules/UA2025-HorrorSubclasses/assets/icons/classes/reanimator.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 0635x9TzB5wWyctb
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartSpellsReani
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartJolttoLife0
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartReanimatedC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: XeBHyjezpxi3DjTF
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartStrangeModi
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: B7cfbtlC6ozdJw6L
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartImprovedRea
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: KLDMQLhT7NOLljNW
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartPrometheanR
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Reassemble Corpses to Raise the
+      Dead</p></blockquote><p>Reanimators defy the laws of nature in pursuit of
+      gruesome experiment. These grim Artificers stitch together servants from
+      disparate corpses, use foul magic to strengthen the living, and transform
+      the art of necromancy into a terrifying science.</p>
+    chat: ''
+  identifier: reanimator
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '1'
+    custom: ''
+    license: ''
+  classIdentifier: artificer
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982364753
+  modifiedTime: 1774983618363
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaartReanimator0'

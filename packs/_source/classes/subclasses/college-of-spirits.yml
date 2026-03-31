@@ -1,0 +1,82 @@
+folder: VvMY6iaFQ0tkUWcT
+name: College of Spirits
+type: subclass
+_id: uabrdSpirits0000
+img: modules/UA2025-HorrorSubclasses/assets/icons/classes/spirits.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: Y8v3pBXjbpGevX3r
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uabrdChanneler00
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uabrdSpiritsfrom
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: W3WzWIJqYUpRxQum
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uabrdEmpoweredCh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: U7Yt45xkTu6oT8W2
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uabrdMysticalCon
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Call Forth Spirits from Beyond the
+      Grave</p></blockquote><p>Using occult trappings, Bards of the College of
+      Spirits conjure legendary and long-dead spirits to change the world once
+      more. But such entities are capricious, and what a Bard summons isn’t
+      always entirely under their control.</p>
+    chat: ''
+  identifier: spirits
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  classIdentifier: bard
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982324591
+  modifiedTime: 1774982432790
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrdSpirits0000'

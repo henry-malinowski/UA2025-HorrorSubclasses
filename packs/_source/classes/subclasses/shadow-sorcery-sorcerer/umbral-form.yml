@@ -1,0 +1,317 @@
+folder: bw7ASrQOvmFNLZNB
+name: Umbral Form
+type: feat
+_id: uasrcUmbralForm0
+img: icons/magic/death/skull-humanoid-crown-white-blue.webp
+system:
+  activities:
+    b87RqX3PPBM4Gxt0:
+      type: utility
+      name: Adopt Umbral Form
+      _id: b87RqX3PPBM4Gxt0
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: hDet2DL0uTlcg9QM
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    cj9S43yKxBt0kHMf:
+      type: heal
+      name: Strength of the Grave
+      _id: cj9S43yKxBt0kHMf
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: If you would drop to 0 Hit Points and not die outright
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 3*@classes.sorcerer.levels
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    2Viw63ybdGgPU2gN:
+      type: utility
+      name: Regain Use
+      _id: 2Viw63ybdGgPU2gN
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+          - type: itemUses
+            value: '6'
+            target: Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>As a &amp;Reference[Bonus Action], you adopt a shadowy form, gaining
+      the benefits below for 1 minute, until you have the
+      &amp;Reference[Incapacitated apply=false] condition, or until you end the
+      form (no action required). Once you use this feature, you can’t use it
+      again until you finish a &amp;Reference[Long Rest] unless you spend 6
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi]{Sorcery
+      Points} (no action required) to restore your use of
+      it.</p><p><em><strong>Incorporeal Movement.</strong></em> You can move
+      through occupied spaces as if they were &amp;Reference[Difficult Terrain].
+      If you end your turn in such a space, you take [[/damage 1d10 Force]]
+      damage.</p><p><em><strong>Shadow Resilience.</strong></em> You have
+      Resistance to all damage except Force and Radiant
+      damage.</p><p><em><strong>Strength of the Grave.</strong></em> If you
+      would drop to 0 Hit Points and not die outright, you can make a Charisma
+      saving throw (DC 5 plus half the damage taken). If you succeed, your Hit
+      Points instead change to a number equal to three times your Sorcerer
+      level.</p>
+    chat: ''
+  identifier: umbral-form
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '7'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: Shadow Sorcery
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Umbral Form
+    img: icons/magic/death/skull-humanoid-crown-white-blue.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uasrcUmbralForm0
+    transfer: false
+    _id: hDet2DL0uTlcg9QM
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+      - key: system.traits.dr.value
+        mode: 2
+        value: necrotic
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+      - key: system.traits.dr.value
+        mode: 2
+        value: psychic
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+      - key: system.traits.dr.value
+        mode: 2
+        value: thunder
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><em><strong>Incorporeal Movement.</strong></em> You can move through
+      occupied spaces as if they were Difficult Terrain. If you end your turn in
+      such a space, you take 1d10 Force damage.</p><p><em><strong>Shadow
+      Resilience.</strong></em> You have Resistance to all damage except Force
+      and Radiant damage.</p><p><em><strong>Strength of the Grave.</strong></em>
+      If you would drop to 0 Hit Points and not die outright, you can make a
+      Charisma saving throw (DC 5 plus half the damage taken). If you succeed,
+      your Hit Points instead change to a number equal to three times your
+      Sorcerer level.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uasrcUmbralForm0.hDet2DL0uTlcg9QM'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983429160
+  modifiedTime: 1774983429255
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcUmbralForm0'

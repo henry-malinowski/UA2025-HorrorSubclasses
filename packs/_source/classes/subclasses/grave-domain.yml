@@ -1,0 +1,88 @@
+folder: VvMY6iaFQ0tkUWcT
+name: Grave Domain
+type: subclass
+_id: uaclcGraveDomain
+img: modules/UA2025-HorrorSubclasses/assets/icons/classes/grave.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: nF1io86LQjlLbs2O
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaclcCircleofMor
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaclcSpellsGrave
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaclcPathtotheGr
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: Tvk2doFDQoAx6Ylz
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaclcSentinelatD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: S0h4ly2NHGovl6B5
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uaclcDivineReape
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Embody Deific Forces of Death</p></blockquote><p>The Grave
+      Domain concerns itself with the boundary between life and death. To those
+      who tap into this domain’s power, death is a foundational, natural, and
+      inevitable part of the multiverse. Such Clerics seek to destroy Undead and
+      strive to shepherd spirits to the afterlife (whether those spirits want to
+      go or not).</p><p>The magic of this domain also allows these Clerics to
+      stave off death for a time, particularly for those who still have some
+      great work to accomplish in the world. But this is merely a delay of
+      death, not a denial of it, for the grave will always claim its due.</p>
+    chat: ''
+  identifier: grave
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  classIdentifier: cleric
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982333507
+  modifiedTime: 1774983773302
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaclcGraveDomain'

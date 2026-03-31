@@ -1,0 +1,379 @@
+folder: 6HTnBH2o6rIGNPxn
+name: Hexblade Manifest
+type: feat
+_id: uawlkHexbladeMan
+img: icons/magic/unholy/barrier-fire-pink.webp
+system:
+  activities:
+    kmKqTlBBWkse9Lxi:
+      type: save
+      name: Draining Slash
+      _id: kmKqTlBBWkse9Lxi
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          Once per turn, when you hit a target cursed by your Hex with an attack
+          roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: Cgx1OrNOzjcys7By
+          level: {}
+          onSave: false
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    Dl7nzR3zt8oiE3Nz:
+      type: save
+      name: Harrowing Blade
+      _id: Dl7nzR3zt8oiE3Nz
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: >-
+          Once per turn, when you hit a target cursed by your Hex with an attack
+          roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: gKISpyN96I716dgg
+          level: {}
+          onSave: false
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    KOM7vEgopfAgAgMJ:
+      type: utility
+      _id: KOM7vEgopfAgAgMJ
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: >-
+          Once per turn, when you hit a target cursed by your Hex with an attack
+          roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: 7MlRJUUCwL73hd7Q
+          level: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Stymying Mark
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your patron grants you the power to summon cursed echoes of its blade
+      to hinder your foes. You gain the following
+      benefits.</p><p><em><strong>Hexblade’s Curse.</strong></em> You can cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex}
+      without expending a spell slot a number of times equal to your Charisma
+      modifier (minimum of once), and you regain all expended uses when you
+      finish a Long Rest. When you cast Hex, a spectral weapon resembling your
+      patron orbits the cursed target.</p><hr /><p><em><strong>Hexblade’s
+      Maneuvers.</strong></em> Once per turn, when you hit a target cursed by
+      your Hex with an attack roll, you can cause one of these additional
+      effects:</p><p><em><strong>Draining Slash.</strong></em> The target makes
+      a Constitution saving throw against your spell save DC. On a failed save,
+      the target can’t make Opportunity Attacks and its Speed is halved until
+      the start of your next turn.</p><p><em><strong>Harrowing
+      Blade.</strong></em> The target makes a Wisdom saving throw against your
+      spell save DC. On a failed save, the next time the target makes an attack
+      roll against a creature other than you before the start of your next turn,
+      the target takes [[/damage @abilities.cha.mod necrotic]]{Necrotic damage
+      equal to your Charisma modifier}.</p><p><em><strong>Stymying
+      Mark.</strong></em> The target has &amp;Reference[Disadvantage] on the
+      next saving throw it makes before the start of your next turn.</p>
+    chat: ''
+  identifier: hexblade-manifest
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '8'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Draining Slash
+    img: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkHexbladeMan
+    transfer: false
+    _id: Cgx1OrNOzjcys7By
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>No Opportunity Attacks</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uawlkHexbladeMan.Cgx1OrNOzjcys7By'
+  - name: Harrowing Blade
+    img: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkHexbladeMan
+    transfer: false
+    _id: gKISpyN96I716dgg
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Takes Charisma modifier Necrotic damage if they attack someone other
+      than the Warlock.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uawlkHexbladeMan.gKISpyN96I716dgg'
+  - name: Stymying Mark
+    img: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkHexbladeMan
+    transfer: false
+    _id: 7MlRJUUCwL73hd7Q
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.str.save.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+      - key: system.abilities.dex.save.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+      - key: system.abilities.con.save.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+      - key: system.abilities.int.save.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+      - key: system.abilities.wis.save.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+      - key: system.abilities.cha.save.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uawlkHexbladeMan.7MlRJUUCwL73hd7Q'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982500509
+  modifiedTime: 1774982500612
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkHexbladeMan'

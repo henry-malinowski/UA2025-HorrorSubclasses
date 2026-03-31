@@ -1,0 +1,97 @@
+folder: VvMY6iaFQ0tkUWcT
+name: Hollow Warden
+type: subclass
+_id: uargrHollowWarde
+img: modules/UA2025-HorrorSubclasses/assets/icons/classes/hollow-warden.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: WzYWUMpQ6aBT3aFQ
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargrSpellsHollo
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargrWrathoftheW
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: oBNskT2fc1DzVHvz
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargrHungeringMi
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 6W2HRaU367Kvfguz
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargrRotandViole
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: EvHRUbVg3L2SxBW8
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargrAncientEndu
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Draw on the Might of Ancient Wild
+      Terrors</p></blockquote><p>Legends tell that the most ancient and fearsome
+      terrors lurk deep within the old places of the earth—unfathomable and
+      bloodthirsty entities of fallow soil and sharpened claws. Hollow Wardens
+      venerate and draw power from such beings, transforming themselves into
+      similarly merciless and monstrous guardians that stalk along jagged
+      coastlines, across steep mountain crags, and through other dark and wild
+      places.</p>
+    chat: ''
+  identifier: hollow-warden
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  classIdentifier: ranger
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982350497
+  modifiedTime: 1774983669091
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargrHollowWarde'

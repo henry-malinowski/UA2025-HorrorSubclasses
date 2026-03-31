@@ -1,0 +1,117 @@
+folder: VvMY6iaFQ0tkUWcT
+name: Phantom
+type: subclass
+_id: uargePhantom0000
+img: modules/UA2025-HorrorSubclasses/assets/icons/classes/phantom.webp
+system:
+  advancement:
+    - type: ScaleValue
+      title: Soul Trinkets
+      _id: 7d8dUPGiizBEuDGs
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '9':
+            value: 2
+          '13':
+            value: 3
+          '17':
+            value: 4
+      value: {}
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: JGKchwSeAL4Gocsd
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargeWailsfromth
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargeWhispersoft
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: n7lgPpItExDu6xpD
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargeTokensofthe
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargeVoiceofDeat
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 4N2CqS6tq9s8wBai
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargeGhostWalk00
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: RMDg0ht0YvYT2fu0
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uargeDeathsFrien
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Embrace Death and Wield Ghostly
+      Power</p></blockquote><p>Some Rogues walk along the veil between life and
+      death, shepherding opponents to the grave and slipping through the world
+      as undetectable as a spirit. In these pursuits, a Rogue might discover a
+      mystical connection to death itself. Such an individual becomes immersed
+      in negative energy, infusing their strikes with deathly energy and
+      stealing knowledge from souls who have passed on. Thieves’ guilds value
+      Rogues of this persuasion as highly effective information gatherers and
+      spies.</p>
+    chat: ''
+  identifier: phantom
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  classIdentifier: rogue
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 112500
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982358600
+  modifiedTime: 1774982633615
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargePhantom0000'

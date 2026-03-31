@@ -1,0 +1,175 @@
+folder: laQmRsQxeJCZlvCJ
+name: Reanimator Spells
+type: feat
+_id: uaartSpellsReani
+img: icons/magic/lightning/bolt-strike-sparks-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: 3EzwzZ0c0jTBqOVd
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: SBlr4akxvJUGK51G
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: cZriqMUjKfLYvSWa
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAnimateDea
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLightningB
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: Xxs1BRvgzYr5WSsg
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: i6b7voldRgnZuPxj
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAntilifeSh
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <p>When you reach an Artificer level specified in the Reanimator Spells
+      table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Reanimator
+      Spells</caption><thead><tr><td>Artificer
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{False
+      Life},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{Spare
+      the Dying},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0]{Witch
+      Bolt}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD]{Blindness/Deafness},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi]{Enhance
+      Ability}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateDea]{Animate
+      Dead},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{Lightning
+      Bolt}</em></td></tr><tr><td>13</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death
+      Ward}</em></td></tr><tr><td>17</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAntilifeSh]{Antilife
+      Shell},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Raise
+      Dead}</em></td></tr></tbody></table><section class="secret"
+      id="secret-UtRaj9TxBVIgeYVi"><p><strong>Foundry Note</strong></p><p>As you
+      level up these spells will be granted to you automatically.</p></section>
+    chat: ''
+  identifier: reanimator-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Reanimator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983383542
+  modifiedTime: 1774983632218
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaartSpellsReani'

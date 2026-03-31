@@ -1,0 +1,116 @@
+folder: 6HTnBH2o6rIGNPxn
+name: Armor of Hexes
+type: feat
+_id: uawlkArmorofHexe
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+system:
+  activities:
+    ht6bhazYkDe8FqXp:
+      type: heal
+      name: Reduce
+      _id: ht6bhazYkDe8FqXp
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: When you take damage from the cursed target of your Hex
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 2d8+@abilities.cha.mod
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@abilities.cha.mod'
+  advancement: []
+  description:
+    value: >-
+      <p>When you take damage from the cursed target of your Hex, you can take a
+      &amp;Reference[Reaction] to reduce the damage taken by an amount equal to
+      [[/heal]]{2d8 plus your Charisma modifier}. You can use this feature a
+      number of times equal to your Charisma modifier, and you regain all
+      expended uses when you finish a &amp;Reference[Long Rest].</p>
+    chat: ''
+  identifier: armor-of-hexes
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '8'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982493323
+  modifiedTime: 1774982493323
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkArmorofHexe'

@@ -1,0 +1,157 @@
+folder: mOgzy3zO2mfQhr5O
+name: Hollow Warden Spells
+type: feat
+_id: uargrSpellsHollo
+img: icons/environment/wilderness/cave-entrance-dwarven-hill.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: m2lQprBa8fwUSgWy
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: X0ltVI78WTkexxD2
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: CVlqFZRcvVTolX9W
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: 6oelE0tatQQfKSFV
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: AIFKukNgwywbXnWw
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAwaken0000
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <p>When you reach a Ranger level specified in the Hollow Warden Stalker
+      Spells table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Hollow Warded
+      Spells</caption><thead><tr><td>Ranger
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm]{Wrathful
+      Smite}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt]{Spike
+      Growth}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte]{Phantom
+      Steed}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat]{Hallucinatory
+      Terrain}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAwaken0000]{Awaken}</td></tr></tbody></table><section
+      class="secret" id="secret-l6kkhK0Xt44BO72J"><p><strong>Foundry
+      Note</strong></p><p>The spells will be automatically granted as you level
+      up.</p></section>
+    chat: ''
+  identifier: hollow-warden-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Hollow Warden
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982541309
+  modifiedTime: 1774983682772
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargrSpellsHollo'

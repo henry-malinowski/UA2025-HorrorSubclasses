@@ -1,0 +1,18 @@
+type: Actor
+folder: UtZgIo8hTMpYwWAG
+name: Promethean Reanimation
+color: null
+sorting: a
+_id: k9DMWwzwJCjiFAqv
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1760196632146
+_key: '!folders!k9DMWwzwJCjiFAqv'

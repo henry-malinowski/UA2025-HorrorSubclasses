@@ -1,0 +1,18 @@
+type: Item
+folder: VvMY6iaFQ0tkUWcT
+name: Shadow Sorcery (Sorcerer)
+color: null
+sorting: a
+_id: bw7ASrQOvmFNLZNB
+description: ''
+sort: 600000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774971356299
+_key: '!folders!bw7ASrQOvmFNLZNB'

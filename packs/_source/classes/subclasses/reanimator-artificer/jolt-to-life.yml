@@ -1,0 +1,132 @@
+folder: laQmRsQxeJCZlvCJ
+name: Jolt to Life
+type: feat
+_id: uaartJolttoLife0
+img: icons/magic/lightning/bolt-strike-creature-pink.webp
+system:
+  activities:
+    cw7rojuNcXizSg4m:
+      type: save
+      _id: cw7rojuNcXizSg4m
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you cast Spare the Dying
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: 1d4+ceil(@classes.artificer.levels / 2)
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@abilities.int.mod'
+  advancement: []
+  description:
+    value: >-
+      <p>When you cast <em>Spare the Dying</em>, you can modify the spell so
+      that it sends a jolt of electricity through the target, reviving it. The
+      target regains 1 Hit Point, and each creature in a 10-foot Emanation
+      originating from the target makes a [[/save]]{Dexterity saving throw}
+      against your spell save DC, taking Lightning damage equal to
+      [[/damage]]{1d4 plus half your Artificer level} (round up) on a failed
+      save or half as much damage on a successful one.</p><p>You can modify the
+      spell this way a number of times equal to your Intelligence modifier, and
+      you regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  identifier: jolt-to-life
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '1'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Reanimator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983358680
+  modifiedTime: 1774983358680
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaartJolttoLife0'

@@ -1,0 +1,18 @@
+type: Actor
+folder: m9xwqKJgK9Des2rT
+name: Bloated
+color: null
+sorting: a
+_id: j3Y3gELNz8UM9dby
+description: ''
+sort: 300000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1760196926043
+_key: '!folders!j3Y3gELNz8UM9dby'

@@ -1,0 +1,252 @@
+folder: cqfS7YyKHalYt48Z
+name: Tokens of the Departed
+type: feat
+_id: uargeTokensofthe
+img: icons/magic/unholy/orb-hands-pink.webp
+system:
+  activities:
+    0y8OGH8vcJGAFbw1:
+      type: cast
+      name: Spirit Query
+      _id: 0y8OGH8vcJGAFbw1
+      sort: 100000
+      activation:
+        type: action
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAugury0000
+        ability: dex
+        level: 2
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    zlWcCVkfE913dXHo:
+      type: utility
+      name: Regain Soul Trinket
+      _id: zlWcCVkfE913dXHo
+      sort: 300000
+      activation:
+        type: reaction
+        override: false
+        condition: When a creature you can see within 30 feet of you dies
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    JFYbYw912YUvias5:
+      type: damage
+      name: Death's Knell
+      _id: JFYbYw912YUvias5
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          Immediately after you deal your Sneak Attack damage to a creature on
+          your turn
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.rogue.sneak-attack.die'
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@scale.phantom.soul-trinkets'
+  advancement: []
+  description:
+    value: >-
+      <p>The spirits of the dead are drawn to you, and echoes of their past
+      lives magically manifest as strange curios with resonant
+      power.</p><p>Whenever you finish a &amp;Reference[Long Rest], you gain two
+      soul trinkets; each soul trinket is a Tiny object (the DM determines the
+      trinket’s form or has you roll on the
+      @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbStartingTrink]{Trinkets
+      table} in the Player’s Handbook to generate it). These trinkets last until
+      you finish another Long Rest, at which point they disintegrate. If you
+      ever move more than 30 feet from a trinket, the trinket immediately
+      teleports to you, appearing somewhere on your person.</p><p>The number of
+      soul trinkets you gain when you finish a &amp;Reference[Long Rest]
+      increases when you reach Rogue levels 13 (three trinkets) and 17 (four
+      trinkets).</p><hr /><p><em><strong>Using Soul Trinkets.</strong></em> You
+      can use soul trinkets in the following ways:</p><p><em><strong>Death’s
+      Knell.</strong></em> When you deal Sneak Attack damage on your turn, you
+      can expend one soul trinket and immediately use Wails from the Grave
+      without expending a use of that feature. The expended trinket is
+      destroyed.</p><p><em><strong>Life Essence.</strong></em> While you have at
+      least one soul trinket, you have Advantage on Death Saving Throws and
+      Constitution saving throws.</p><p><em><strong>Spirit Query.</strong></em>
+      You can take a Magic action to expend one soul trinket and immediately
+      cast the Augury spell, requiring no spell components and using Dexterity
+      as the spellcasting modifier. The expended trinket is destroyed.</p><hr
+      /><p><em><strong>Regaining Soul Trinkets.</strong></em> When a creature
+      you can see within 30 feet of you dies, you can take a
+      &amp;Reference[Reaction]{Reaction} to regain one expended soul
+      trinket.</p>
+    chat: ''
+  identifier: tokens-of-the-departed
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: Phantom
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982611442
+  modifiedTime: 1774982611442
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeTokensofthe'

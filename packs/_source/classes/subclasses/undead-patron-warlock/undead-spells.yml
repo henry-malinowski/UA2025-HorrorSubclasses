@@ -1,0 +1,160 @@
+folder: swutpu2Fy3CKZGZ0
+name: Undead Spells
+type: feat
+_id: uawlkUndeadSpell
+img: icons/sundries/books/book-face-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: mYToF9Ul5z7iqu5o
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: Kw4o2odofsnPowlY
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: AMTcLaE04hUBC96b
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: oD9DmuefHe6KBq18
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAntilifeSh
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCloudkill0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+  description:
+    value: >-
+      <p>The magic of your patron ensures you always have certain spells ready;
+      when you reach a Warlock level specified in the Undead Spells table, you
+      thereafter always have the listed spells
+      prepared.</p><table><caption>Undead Spells</caption><thead><tr><td>Warlock
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD]{Blindness/Deafness},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{False
+      Life},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{Phantasmal
+      Force},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Ray of
+      Sickness}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD]{Speak
+      with Dead},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{Vampiric
+      Touch}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death
+      Ward},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal]{Phantasmal
+      Killer}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAntilifeSh]{Antilife
+      Shell},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCloudkill0]{Cloudkill}</em></td></tr></tbody></table><section
+      class="secret" id="secret-UtRaj9TxBVIgeYVi"><p><strong>Foundry
+      Note</strong></p><p>As you level up these spells will be granted to you
+      automatically.</p></section>
+    chat: ''
+  identifier: undead-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '9'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Undead Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983476099
+  modifiedTime: 1774983531789
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkUndeadSpell'

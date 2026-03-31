@@ -1,0 +1,378 @@
+folder: laQmRsQxeJCZlvCJ
+name: Improved Reanimation
+type: feat
+_id: uaartImprovedRea
+img: icons/magic/death/undead-skeleton-rags-fire-green.webp
+system:
+  activities:
+    DNVNnCZ444osonnF:
+      type: summon
+      name: Bloated
+      _id: DNVNnCZ444osonnF
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartReanimatedC
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@abilities.int.mod'
+        hd: '@classes.artificer.levels'
+        hp: 4*@classes.artificer.levels
+        attackDamage: '@abilities.int.mod'
+        saveDamage: '@abilities.int.mod'
+        healing: ''
+      creatureSizes:
+        - med
+        - lg
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: false
+        saves: true
+        ability: int
+        disposition: false
+      profiles:
+        - count: ''
+          name: Arcane Conduit
+          _id: JVBQEcP1jdAuW3JI
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompImpArcBlt0
+          level:
+            max: 14
+          types: []
+        - count: ''
+          name: Ferocity
+          _id: FgnXlgdovMTQC9a3
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompImpFerBlt0
+          level:
+            max: 14
+          types: []
+        - count: ''
+          name: Arcane Conduit
+          _id: x3zPWymIlgg75AKZ
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompPromArcBlt
+          level:
+            min: 15
+          types: []
+        - count: ''
+          name: Ferocity
+          _id: 9ISt4yIIcvTsfe3J
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompPromFerBlt
+          level:
+            min: 15
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      visibility:
+        identifier: artificer
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      flags: {}
+    Gf5oeada8wwNWsEk:
+      type: summon
+      name: Gaunt
+      _id: Gf5oeada8wwNWsEk
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartReanimatedC
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@abilities.int.mod'
+        hd: '@classes.artificer.levels'
+        hp: 4*@classes.artificer.levels
+        attackDamage: '@abilities.int.mod'
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: false
+        saves: true
+        ability: int
+        disposition: false
+      profiles:
+        - count: ''
+          name: Arcane Conduit
+          _id: eGcGSwZ96OYuL1XP
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompImpArcGnt0
+          level:
+            max: 14
+          types: []
+        - count: ''
+          name: Ferocity
+          _id: sQ9kbq2hrUa1DBJO
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompImpFerGnt0
+          level:
+            max: 14
+          types: []
+        - count: ''
+          name: Arcane Conduit
+          _id: LQLApe1enjD1KE7u
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompPromArcGnt
+          level:
+            min: 15
+          types: []
+        - count: ''
+          name: Ferocity
+          _id: 1KD365rOEYdA1epm
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompPromFerGnt
+          level:
+            min: 15
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      visibility:
+        identifier: artificer
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      flags: {}
+    eTA7EZ3NSpRtohW7:
+      type: summon
+      name: Moist
+      _id: eTA7EZ3NSpRtohW7
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.UA2025-HorrorSubclasses.classes.Item.uaartReanimatedC
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@abilities.int.mod'
+        hd: '@classes.artificer.levels'
+        hp: 4*@classes.artificer.levels
+        attackDamage: '@abilities.int.mod'
+        saveDamage: '@abilities.int.mod'
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: false
+        saves: true
+        ability: int
+        disposition: false
+      profiles:
+        - count: ''
+          name: Arcane Conduit
+          _id: KKju6xh29y2peWYv
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompImpArcMst0
+          level:
+            max: 14
+          types: []
+        - count: ''
+          name: Ferocity
+          _id: CTbqrtuaNNnh6NmJ
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompImpFerMst0
+          level:
+            max: 14
+          types: []
+        - count: ''
+          name: Arcane Conduit
+          _id: OW1edgostobpFG6v
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompPromArcMst
+          level:
+            min: 15
+          types: []
+        - count: ''
+          name: Ferocity
+          _id: xHoJ2qp9mPMqVG6P
+          uuid: Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompPromFerMst
+          level:
+            min: 15
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      visibility:
+        identifier: artificer
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      flags: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You experiment and alter your companion further. Whenever you create a
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uaartReanimatedC]{Reanimated
+      Companion}, it gains one of the following options of your choice; choose
+      when you create the companion.</p><p><em><strong>Bloated.</strong></em>
+      The companion becomes Large or Medium (your choice). Whenever it hits a
+      Large or smaller creature with its
+      @UUID[Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompTemplate00.Item.tbgENUWNRnj62CX4]{Dreadful
+      Swipe} action, that creature can also be pushed up to 10 feet away from
+      the companion. Additionally, you can add your Intelligence modifier to the
+      damage dealt by the companion’s
+      @UUID[Compendium.UA2025-HorrorSubclasses.actors.Actor.uaCompTemplate00.Item.0eBNLjj2M0kVJFRU]{Death
+      Burst}.</p><p><em><strong>Gaunt.</strong></em> The companion’s Speed
+      increases to 45 feet, and it gains a Climb Speed equal to its Speed. It
+      can climb difficult surfaces, including along ceilings, without needing to
+      make an ability check. In addition, whenever a creature of your choice
+      starts its turn within a 10-foot Emanation originating from your
+      companion, the creature must succeed on a Wisdom saving throw against your
+      spell save DC or have the &amp;Reference[Frightened] condition until the
+      start of its next turn.</p><p><em><strong>Moist.</strong></em> The
+      companion gains a Swim Speed equal to its Speed. In addition, whenever the
+      companion is hit by an attack roll from a creature within 10 feet of it,
+      the attacker takes Acid damage equal to your Intelligence
+      modifier.</p><section class="secret"
+      id="secret-ri6LA4OpMu82CNkx"><p><strong>Foundry Note</strong></p><p>This
+      feature improves your summons as you gain levels and includes and includes
+      improvements granted to your summons by Promethean
+      Reanimation.</p></section>
+    chat: ''
+  identifier: improved-reanimation
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '2'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: Reanimator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983350724
+  modifiedTime: 1774986552182
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaartImprovedRea'

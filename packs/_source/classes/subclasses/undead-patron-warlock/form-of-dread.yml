@@ -1,0 +1,260 @@
+folder: swutpu2Fy3CKZGZ0
+name: Form of Dread
+type: feat
+_id: uawlkFormofDread
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+system:
+  activities:
+    oXqJWpe689GgqVju:
+      type: heal
+      name: Transform
+      _id: oXqJWpe689GgqVju
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: Oc4M6VDqjEuFWTad
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: 1d10+@classes.warlock.levels
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    yh0q1tpwGKqyRcTd:
+      type: save
+      name: Frightful Avatar
+      _id: yh0q1tpwGKqyRcTd
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: Once per turn, when you hit a creature with an attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: ogJBOKas2Tak5Pc2
+          level: {}
+          onSave: false
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: max(1,@abilities.cha.mod)
+  advancement: []
+  description:
+    value: >-
+      <p>As a &amp;Reference[Bonus Action]{Bonus Action}, you transform into an
+      avatar of your patron’s dreadful power, gaining the benefits below for 1
+      minute, until you have the &amp;Reference[Incapacitated apply=false]
+      condition, or until you end the form (no action required). You can
+      transform a number of times equal to your Charisma modifier (minimum of
+      once), and you regain all expended uses when you finish a
+      &amp;Reference[Long Rest].</p><p><em><strong>Facsimile of
+      Life.</strong></em> You gain Temporary Hit Points equal to 1d10 plus your
+      Warlock level.</p><p><em><strong>Frightful Avatar.</strong></em> You have
+      Immunity to the &amp;Reference[Frightened apply=false] condition.
+      Additionally, once per turn, when you hit a creature with an attack roll,
+      you can force it to make a Wisdom saving throw against your spell save DC.
+      On a failed save, the target has the &amp;Reference[Frightened] condition
+      until the end of your next turn.</p>
+    chat: ''
+  identifier: form-of-dread
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '9'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Undead Patron
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Form of Dread
+    img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkFormofDread
+    transfer: false
+    _id: Oc4M6VDqjEuFWTad
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.ci.value
+        mode: 2
+        value: frightened
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><em><strong>Frightful Avatar.</strong></em> You have Immunity to the
+      Frightened condition. Additionally, once per turn, when you hit a creature
+      with an attack roll, you can force it to make a Wisdom saving throw
+      against your spell save DC. On a failed save, the target has the
+      Frightened condition until the end of your next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uawlkFormofDread.Oc4M6VDqjEuFWTad'
+  - name: Frightened
+    img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkFormofDread
+    transfer: false
+    _id: ogJBOKas2Tak5Pc2
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uawlkFormofDread.ogJBOKas2Tak5Pc2'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983440184
+  modifiedTime: 1774983440279
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkFormofDread'

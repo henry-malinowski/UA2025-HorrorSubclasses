@@ -1,0 +1,94 @@
+folder: VvMY6iaFQ0tkUWcT
+name: Shadow Sorcery
+type: subclass
+_id: uasrcShadowSorce
+img: modules/UA2025-HorrorSubclasses/assets/icons/classes/shadow.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 2EiOdLBdCEyG8q4i
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uasrcEyesoftheDa
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uasrcShadowSpell
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 1qYkmCQwxJwtm9wU
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uasrcSpiritofIll
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: VafNaf0X2JxdxGGf
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uasrcShadowWalk0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: LDL7gFktS9f1rSDJ
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uasrcUmbralForm0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Bend Darkness and Doom to Your Will</p></blockquote><p>Your
+      innate magic comes from the Shadowfell itself. You might trace your
+      lineage to an entity from that place, or perhaps you were exposed to the
+      Shadowfell’s sinister energy and were transformed by it. Your shadowy
+      magic allows you to command darkness, undeath, and woe with ease.</p>
+    chat: ''
+  identifier: shadow-sorcery
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '7'
+    custom: ''
+    license: ''
+  classIdentifier: sorcerer
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 106250
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982387583
+  modifiedTime: 1774983567365
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcShadowSorce'

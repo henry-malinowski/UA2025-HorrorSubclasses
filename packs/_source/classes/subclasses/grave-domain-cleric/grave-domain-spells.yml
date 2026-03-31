@@ -1,0 +1,164 @@
+folder: vtnphOr6LoWzC171
+name: Grave Domain Spells
+type: feat
+_id: uaclcSpellsGrave
+img: icons/sundries/books/book-symbol-skull-grey.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: GYevc2yA0to3eZif
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: QyGkgODDGcZBKjLr
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: ut2MHVPBNvSBysUj
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: UGPQD8L58bYc6Kok
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+  description:
+    value: >-
+      <p>Your connection to this divine domain ensures you always have certain
+      spells ready. When you reach a Cleric level specified in the Grave Domain
+      Spells table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Grave Domain
+      Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared
+      Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{Bane},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill
+      Touch},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detect
+      Evil and Good},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo]{Gentle
+      Repose},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of
+      Enfeeblement}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{Revivify},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{Vampiric
+      Touch}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil]{Dispel
+      Evil and
+      Good}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold
+      Monster},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Raise
+      Dead}</td></tr></tbody></table><section class="secret"
+      id="secret-lOHryO7PtWIaEWQr"><p><strong>Foundry Note</strong></p><p>These
+      spells are granted automatically as you advance.</p></section>
+    chat: ''
+  identifier: grave-domain-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Grave Domain
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982462379
+  modifiedTime: 1774983783991
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaclcSpellsGrave'

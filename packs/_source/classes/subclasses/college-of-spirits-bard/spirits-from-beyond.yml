@@ -1,0 +1,176 @@
+folder: PdVZZGZeqINzWrz9
+name: Spirits from Beyond
+type: feat
+_id: uabrdSpiritsfrom
+img: icons/magic/death/undead-ghost-scream-teal.webp
+system:
+  activities:
+    IW7xYunEGCWL1DBQ:
+      type: macro
+      _id: IW7xYunEGCWL1DBQ
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      macroCode: >-
+        fromUuidSync("Compendium.UA2025-HorrorSubclasses.macros.Macro.uahsRollTalesFro").execute();
+      name: Use
+    iwaXmqxJ4JXBUwAV:
+      type: utility
+      _id: iwaXmqxJ4JXBUwAV
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: any
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>While holding a Spellcasting Focus, you can take a &amp;Reference[Bonus
+      Action]{Bonus Action} to expend one use of your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp]{Bardic
+      Inspiration} and call forth the powers of a spirit. Roll the Bardic
+      Inspiration die and refer to the
+      @UUID[Compendium.UA2025-HorrorSubclasses.tables.RollTable.uaSpiritsfromBey]{Spirits
+      from Beyond} table to determine the spirit you channel, then choose one
+      creature you can see within 30 feet of yourself as the spirit’s target.
+      The spirit immediately takes effect; if a spirit’s effect requires a
+      saving throw, the DC equals your Bard spell save
+      DC.</p><p>@Embed[Compendium.UA2025-HorrorSubclasses.tables.RollTable.uaSpiritsfromBey
+      rollable cite=false caption=false classes="wild-magic-surge"]</p>
+    chat: >-
+      <p>While holding a Spellcasting Focus, you can take a &amp;Reference[Bonus
+      Action]{Bonus Action} to expend one use of your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp]{Bardic
+      Inspiration} and call forth the powers of a spirit. Roll the Bardic
+      Inspiration die and refer to the
+      @UUID[Compendium.UA2025-HorrorSubclasses.tables.RollTable.uaSpiritsfromBey]{Spirits
+      from Beyond} table to determine the spirit you channel, then choose one
+      creature you can see within 30 feet of yourself as the spirit’s target.
+      The spirit immediately takes effect; if a spirit’s effect requires a
+      saving throw, the DC equals your Bard spell save DC.</p>
+  identifier: spirits-from-beyond
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: College of Spirits
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982432694
+  modifiedTime: 1774986767816
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrdSpiritsfrom'

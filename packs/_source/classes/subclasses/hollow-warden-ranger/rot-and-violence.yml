@@ -1,0 +1,158 @@
+folder: mOgzy3zO2mfQhr5O
+name: Rot and Violence
+type: feat
+_id: uargrRotandViole
+img: icons/magic/acid/dissolve-vomit-green-brown.webp
+system:
+  activities:
+    NebiPYYtMouvgzsK:
+      type: enchant
+      _id: NebiPYYtMouvgzsK
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: SObo9N6Ll0wbZNoM
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: feat
+      name: ''
+      visibility:
+        identifier: ranger
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      flags: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your dedication to eldritch forest beings alters you further. When
+      transformed using
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uargrWrathoftheW]{Wrath
+      of the Wild}, you gain the following additional
+      benefits.</p><p><em><strong>Eerie Aura.</strong></em> When a creature
+      fails its saving throw against your Unnerving Aura, it also takes
+      Necrotic, Poison, or Psychic damage (your choice) equal to your Ranger
+      level. This damage ignores Resistance.</p><p><em><strong>Strangling
+      Roots.</strong></em> When you hit a creature with an attack roll using a
+      weapon, you can activate the Sap or Slow mastery property in addition to a
+      different mastery property you’re using with that weapon.</p>
+    chat: ''
+  identifier: rot-and-violence
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties:
+    - trait
+  requirements: Hollow Warden
+  type:
+    value: class
+    subtype: ''
+effects:
+  - type: enchantment
+    name: Rot and Violence
+    img: icons/magic/acid/dissolve-vomit-green-brown.webp
+    disabled: true
+    _id: SObo9N6Ll0wbZNoM
+    system: {}
+    changes:
+      - key: system.damage.bonus
+        mode: 2
+        value: '@classes.ranger.levels'
+        priority: null
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uargrRotandViole.SObo9N6Ll0wbZNoM'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982552962
+  modifiedTime: 1774982559237
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargrRotandViole'

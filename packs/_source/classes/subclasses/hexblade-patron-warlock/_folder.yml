@@ -1,0 +1,18 @@
+type: Item
+folder: VvMY6iaFQ0tkUWcT
+name: Hexblade Patron (Warlock)
+color: null
+sorting: a
+_id: 6HTnBH2o6rIGNPxn
+description: ''
+sort: 700000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774971377364
+_key: '!folders!6HTnBH2o6rIGNPxn'

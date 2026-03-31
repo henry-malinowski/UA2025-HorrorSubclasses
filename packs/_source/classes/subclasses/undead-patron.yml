@@ -1,0 +1,108 @@
+folder: VvMY6iaFQ0tkUWcT
+name: Undead Patron
+type: subclass
+_id: uawlkUndeadPatro
+img: modules/UA2025-HorrorSubclasses/assets/icons/classes/undead.webp
+system:
+  advancement:
+    - type: Trait
+      title: Necrotic Resilience
+      _id: Ho0duOEDndVrQdsI
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - dr:necrotic
+        mode: default
+      level: 10
+      hint: You have Resistance to Necrotic damage.
+      value: {}
+    - type: ItemGrant
+      title: Subclass Features
+      _id: ABGqKuhpJiKqsezb
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkFormofDread
+            optional: false
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkUndeadSpell
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: XEoUPJmtcmqzdO1t
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkGraveTouche
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: cRdrXGKZlE2c4vC8
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkNecroticHus
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: lsPfG6KP86V2KMgr
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkSuperiorDre
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Defy Death for Profane Power</p></blockquote><p>You’ve made
+      a pact with a creature that defies the cycle of life and death: a powerful
+      lich, vampire, or other entity of undeath. Having once been mortal
+      themselves, these ancient patrons know firsthand the paths of ambition and
+      the routes past the doors of death. They eagerly share this profane
+      knowledge, along with other secrets, with those who work their will among
+      the living.</p>
+    chat: ''
+  identifier: undead
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '8'
+    custom: ''
+    license: ''
+  classIdentifier: ''
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 118750
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982395287
+  modifiedTime: 1774983512833
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkUndeadPatro'

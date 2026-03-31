@@ -1,0 +1,108 @@
+folder: PdVZZGZeqINzWrz9
+name: Mystical Connection
+type: feat
+_id: uabrdMysticalCon
+img: icons/magic/air/wind-swirl-purple-blue.webp
+system:
+  activities:
+    qkqHggSFk4fXsRNp:
+      type: utility
+      _id: qkqHggSFk4fXsRNp
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You gain mastery over the spirits you call forth. Whenever you roll on
+      the
+      @UUID[Compendium.UA2025-HorrorSubclasses.tables.RollTable.uaSpiritsfromBey]{Spirits
+      from Beyond table}, you can roll the die twice and choose which of the two
+      effects to bestow.</p><section class="secret"
+      id="secret-596CrlkI94hOt6Xu"><p><strong>Foundry Note</strong></p><p>You
+      now automatically roll twice when you use Spirits from
+      Beyond.</p></section>
+    chat: ''
+  identifier: mystical-connection
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties:
+    - trait
+  requirements: College of Spirits
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982424782
+  modifiedTime: 1774982424782
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrdMysticalCon'

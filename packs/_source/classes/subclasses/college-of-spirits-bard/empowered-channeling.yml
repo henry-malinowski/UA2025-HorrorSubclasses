@@ -1,0 +1,274 @@
+folder: PdVZZGZeqINzWrz9
+name: Empowered Channeling
+type: feat
+_id: uabrdEmpoweredCh
+img: icons/skills/trades/academics-book-study-runes.webp
+system:
+  activities:
+    aCIotgHRW035LWnX:
+      type: damage
+      name: Powers from Beyond (Damage)
+      _id: aCIotgHRW035LWnX
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - piercing
+              - poison
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    bHGYd6lyi3WU9Ekg:
+      type: heal
+      name: Powers from Beyond (Healing)
+      _id: bHGYd6lyi3WU9Ekg
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        number: 1
+        denomination: 6
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    pCgu2T9YiFBLutJE:
+      type: utility
+      name: Spiritual Manifestation
+      _id: pCgu2T9YiFBLutJE
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: Whenever you start casting Spirit Guardians
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement:
+    - type: ItemGrant
+      _id: rjq7Zue7YePHIk4R
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpiritGuar
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 6
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>Your ability to channel spirits improves. You gain the following
+      benefits.</p><p><em><strong>Power from Beyond.</strong></em> Once per
+      turn, when you cast a Bard spell that deals damage or restores Hit Points,
+      roll a [[/r d6]]. You gain a bonus to one of the spell’s damage rolls or
+      to the total Hit Points the spell restores equal to the number
+      rolled.</p><p><em><strong>Spiritual Manifestation.</strong></em> You
+      always have the <em>Spirit Guardians</em> spell prepared. You can cast the
+      spell once without a spell slot, and you regain the ability to cast it in
+      this way when you finish a &amp;Reference[Long Rest].</p><p>Whenever you
+      start casting the spell, you can modify it so the spirits also guard
+      against worldly threats. When cast in this way, you and allies within the
+      spell’s Emanation have &amp;Reference[Half Cover]. Once you modify the
+      spell in this way, you can’t do so again until you finish a Short or Long
+      Rest.</p><section class="secret"
+      id="secret-urklkSP4GLnLBVQY"><p><strong>Foundry Note</strong></p><p>This
+      feature tracks you use of the second paragraph of Spiritual
+      Manifestation.</p></section>
+    chat: ''
+  identifier: empowered-channeling
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: College of Spirits
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982417590
+  modifiedTime: 1774982417590
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrdEmpoweredCh'

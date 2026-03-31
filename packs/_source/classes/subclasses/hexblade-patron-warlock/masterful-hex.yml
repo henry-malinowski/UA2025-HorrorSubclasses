@@ -1,0 +1,64 @@
+folder: 6HTnBH2o6rIGNPxn
+name: Masterful Hex
+type: feat
+_id: uawlkMasterfulHe
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your patron’s accursed might flows even more strongly through you,
+      granting the following benefits.</p><p><em><strong>Accursed
+      Critical.</strong></em> Any attack roll you make against the target cursed
+      by your Hex scores a Critical Hit on a roll of a 19 or 20 on the
+      d20.</p><p><em><strong>Infectious Hex.</strong></em> When you use one of
+      your
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uawlkHexbladeMan]{Hexblade’s
+      Maneuvers}, you can target one additional creature within 30 feet of the
+      cursed target. The additional target takes [[/damage 1d6 Necrotic]]
+      damage.</p><p><em><strong>Resilient Hex.</strong></em> Taking damage can’t
+      break your &amp;Reference[Concentration] on <em>Hex</em>.</p><section
+      class="secret" id="secret-DXVGY3odDTFdgfjj"><p><strong>Foundry
+      Note</strong></p><p>This feature does not automate the exapanded Critical
+      Hit range.</p></section>
+    chat: ''
+  identifier: masterful-hex
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '8'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties:
+    - trait
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982520450
+  modifiedTime: 1774982520450
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkMasterfulHe'

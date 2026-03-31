@@ -1,0 +1,161 @@
+folder: 6HTnBH2o6rIGNPxn
+name: Hexblade Spells
+type: feat
+_id: uawlkHexbladeSpe
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: h9hHZC4H3r30yzGM
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplArcaneVigo
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShield0000
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: qYpn0X56DQnBA5FA
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConjureBar
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: kB9tY25tAHx48LPN
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplStaggering
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: XENL1PrQ93QGZs4e
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+  description:
+    value: >-
+      <p>The magic of your patron ensures you always have certain spells ready;
+      when you reach a Warlock level specified in the Hexblade Spells table, you
+      thereafter always have the listed spells
+      prepared.</p><table><caption>Hexblade
+      Spells</caption><thead><tr><td>Warlock
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneVigo]{Arcane
+      Vigor},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{Magic
+      Weapon},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm]{Wrathful
+      Smite}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureBar]{Conjure
+      Barrage},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel
+      Magic}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom
+      of Movement},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStaggering]{Staggering
+      Smite}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj]{Animate
+      Objects},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel
+      Wind Strike}</td></tr></tbody></table><section class="secret"
+      id="secret-lnZXOfSlkmrhhRgf"><p><strong>Foundry Note</strong></p><p>As you
+      level up these spells will be granted to you automatically.</p></section>
+    chat: ''
+  identifier: hexblade-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '8'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982508243
+  modifiedTime: 1774983724952
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkHexbladeSpe'

@@ -1,0 +1,1013 @@
+name: Reanimated Companion (Arcane Conduit, Bloated)
+type: npc
+img: modules/UA2025-HorrorSubclasses/assets/tokens/portraits/flesh-golem.webp
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 4
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 6
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+    spell2:
+      value: 0
+    spell3:
+      value: 0
+    spell4:
+      value: 0
+    spell5:
+      value: 0
+    spell6:
+      value: 0
+    spell7:
+      value: 0
+    spell8:
+      value: 0
+    spell9:
+      value: 0
+    pact:
+      value: 0
+  attributes:
+    ac:
+      calc: flat
+      flat: 10
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+      ignoredDifficultTerrain: []
+      special: ''
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    hp:
+      value: 4
+      max: 4
+      temp: 0
+      tempmax: 0
+      formula: ''
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    price:
+      value: null
+      denomination: gp
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Neutral
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: undead
+      custom: ''
+      subtype: ''
+      swarm: ''
+    habitat:
+      value: []
+      custom: ''
+    cr: 1
+    treasure:
+      value: []
+  resources:
+    legact:
+      max: 0
+      spent: 0
+    legres:
+      max: 0
+      spent: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
+  traits:
+    size: sm
+    di:
+      value:
+        - lightning
+      custom: ''
+      bypasses: []
+    dr:
+      value:
+        - necrotic
+        - poison
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - poisoned
+      custom: ''
+    languages:
+      value: []
+      custom: Understands the languages you know
+      communication:
+        telepathy:
+          value: null
+          units: ft
+    important: false
+prototypeToken:
+  name: Reanimated Companion
+  displayName: 0
+  actorLink: false
+  width: 1
+  height: 1
+  texture:
+    src: modules/UA2025-HorrorSubclasses/assets/tokens/static/flesh-golem.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: true
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: modules/UA2025-HorrorSubclasses/assets/tokens/dynamic/flesh-golem.webp
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Lightning Absorption
+    type: feat
+    _id: alGyngA3IGXRgB7k
+    img: icons/magic/lightning/bolt-strike-explosion-blue.webp
+    system:
+      activities:
+        BH9kGDAYyKBEnnxl:
+          type: heal
+          _id: BH9kGDAYyKBEnnxl
+          sort: 0
+          activation:
+            type: special
+            override: false
+            condition: Whenever the companion is subjected to Lightning damage
+          consumption:
+            scaling:
+              allowed: true
+              max: ''
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: self
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          healing:
+            types: []
+            custom:
+              enabled: true
+              formula: '@scaling'
+            scaling:
+              number: 1
+              mode: ''
+            number: null
+            denomination: null
+            bonus: ''
+          name: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: []
+      description:
+        value: >-
+          <p>Whenever the companion is subjected to Lightning damage, it regains
+          a number of Hit Points equal to the Lightning damage dealt.</p>
+        chat: ''
+      identifier: lightning-absorption
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!uaCompImpArcBlt0.alGyngA3IGXRgB7k'
+  - name: Death Burst
+    type: feat
+    _id: 0eBNLjj2M0kVJFRU
+    img: icons/magic/death/blood-corruption-vomit-red.webp
+    system:
+      activities:
+        IVPtZo77BAoSCHqr:
+          type: save
+          _id: IVPtZo77BAoSCHqr
+          sort: 0
+          activation:
+            type: special
+            override: false
+            condition: When the Reanimated Companion dies
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: radius
+              size: '10'
+              count: ''
+            affects:
+              choice: false
+              type: creature
+              count: ''
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            onSave: none
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 6
+                bonus: ''
+                types:
+                  - necrotic
+                scaling:
+                  number: 1
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          name: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: []
+      description:
+        value: >-
+          <p>The companion explodes when it dies. <em>Dexterity Saving Throw:
+          </em>[[/save]]{DC equals your spell save DC}, each creature in a
+          10-foot Emanation originating from the companion. <em>Failure:</em>
+          [[/damage]] damage.</p>
+        chat: ''
+      identifier: death-durst
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!uaCompImpArcBlt0.0eBNLjj2M0kVJFRU'
+  - name: Dreadful Swipe
+    type: weapon
+    _id: tbgENUWNRnj62CX4
+    img: icons/skills/melee/strike-slashes-red.webp
+    system:
+      activities:
+        cMsxcYl3HgeT8FvO:
+          _id: cMsxcYl3HgeT8FvO
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ''
+              classification: ''
+            ability: none
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          name: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>[[/attack extended]]. [[/damage extended]], and the target can’t
+          take &amp;Reference[Opportunity Attacks] until the start of its next
+          turn. <em>Hit Large or smaller creature: </em>The target can also be
+          pushed up to 10 feet away from the companion</p>
+        chat: ''
+      identifier: dreadful-swipe
+      source:
+        revision: 1
+        rules: '2024'
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      ammunition: {}
+      armor: {}
+      damage:
+        base:
+          types:
+            - necrotic
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          number: 1
+          denomination: 4
+          bonus: '@abilities.str.mod'
+        versatile:
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      properties: []
+      proficient: null
+      range:
+        reach: 5
+        units: ft
+        value: null
+        long: null
+      type:
+        value: natural
+        baseItem: ''
+      mastery: ''
+      crew:
+        value: []
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!uaCompImpArcBlt0.tbgENUWNRnj62CX4'
+  - folder: RcCLXliNoUbTkz9N
+    name: Arcane Conduit
+    type: feat
+    _id: 4UmKD1ug1774HRaI
+    img: icons/magic/control/energy-stream-link-teal.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: []
+      description:
+        value: >-
+          <p>You can cast spells as though you were in the companion’s space,
+          but you must use your own senses. Once per turn, when you cast an
+          Artificer spell from the Evocation or Necromancy schools and deal
+          damage while your companion is within 120 feet of you, you can add
+          your Intelligence modifier to one damage roll of that spell.</p>
+        chat: ''
+      identifier: arcane-conduit
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: 5
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!uaCompImpArcBlt0.4UmKD1ug1774HRaI'
+effects:
+  - name: Always D6 Hit Point Dice
+    img: icons/sundries/gaming/dice-runed-brown.webp
+    _id: AP7M2VWMtggQlgsL
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hd.denomination
+        mode: 5
+        value: '6'
+    disabled: false
+    duration:
+      startTime: 0
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!actors.effects!uaCompImpArcBlt0.AP7M2VWMtggQlgsL'
+folder: j3Y3gELNz8UM9dby
+flags:
+  dnd5e:
+    isAutoImported: true
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774984179773
+  modifiedTime: 1774984179773
+  lastModifiedBy: dnd5ebuilder0000
+ownership:
+  default: 0
+_id: uaCompImpArcBlt0
+sort: 0
+_key: '!actors!uaCompImpArcBlt0'

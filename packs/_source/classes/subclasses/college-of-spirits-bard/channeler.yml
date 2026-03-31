@@ -1,0 +1,133 @@
+folder: PdVZZGZeqINzWrz9
+name: Channeler
+type: feat
+_id: uabrdChanneler00
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+system:
+  activities:
+    qXwbwaGL1OVoGuVW:
+      type: cast
+      _id: qXwbwaGL1OVoGuVW
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: ft
+        override: true
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      spell:
+        challenge:
+          override: false
+        properties: []
+        spellbook: true
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        ability: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: sL33y8GpJE08T0Mm
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.equipment.Item.phbgstPlayingcar
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: 'Spiritual Focus: Gaming Set'
+      hint: ''
+    - type: Trait
+      _id: T8FUz23TgZbzo8av
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:game:card
+        mode: default
+      level: 3
+      title: 'Spiritual Focus: Skill Proficiency'
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You learn how to contact spirits beyond the grave, letting their power
+      and knowledge flow through you. You gain the following
+      benefits.</p><p><em><strong>Guiding Whispers.</strong></em> You know the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{Guidance}
+      cantrip. It has a range of 60 feet when you cast
+      it.</p><p><em><strong>Spiritual Focus.</strong></em> You employ tools that
+      aid you in channeling spirits. You gain a Gaming Set (Playing Cards). You
+      have proficiency with this Gaming Set, and you can use the cards or one of
+      the following items as a Spellcasting Focus for your Bard spells: Arcane
+      Focus (Crystal or Orb), Candle, or Ink Pen.</p>
+    chat: ''
+  identifier: channeler
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: College of Spirits
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982410731
+  modifiedTime: 1774982410731
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrdChanneler00'

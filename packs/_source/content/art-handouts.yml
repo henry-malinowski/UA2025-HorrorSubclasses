@@ -1,0 +1,246 @@
+name: Art Handouts
+_id: uaArtHandouts000
+pages:
+  - sort: 100000
+    name: 'Artificier: Reanimator'
+    type: image
+    _id: fwubDTuCBvrMjyVM
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-HorrorSubclasses/assets/journal-art/journal-reanimator.jpg
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandouts000.fwubDTuCBvrMjyVM'
+  - sort: 900000
+    name: 'Warlock: Undead Patron'
+    type: image
+    _id: jVLirMeJn77Vx28Y
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-HorrorSubclasses/assets/journal-art/journal-undead.jpg
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandouts000.jVLirMeJn77Vx28Y'
+  - sort: 150000
+    name: 'Bard: College of Spirits'
+    type: image
+    _id: I6a6BLlFUFhMIjlr
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-HorrorSubclasses/assets/journal-art/journal-spirits.jpg
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandouts000.I6a6BLlFUFhMIjlr'
+  - sort: 400000
+    name: 'Cleric: Grave Domain'
+    type: image
+    _id: qfnB9e3FhizEdgxU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-HorrorSubclasses/assets/journal-art/journal-grave.jpg
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandouts000.qfnB9e3FhizEdgxU'
+  - sort: 500000
+    name: 'Ranger: Hollow Warden'
+    type: image
+    _id: 1VcTHPbmwoztgJcU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: >-
+      modules/UA2025-HorrorSubclasses/assets/journal-art/journal-hollow-warden.jpg
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandouts000.1VcTHPbmwoztgJcU'
+  - sort: 600000
+    name: 'Rogue: Phantom'
+    type: image
+    _id: 68wgvbKS2WcxIGxl
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-HorrorSubclasses/assets/journal-art/journal-phantom.jpg
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandouts000.68wgvbKS2WcxIGxl'
+  - sort: 700000
+    name: 'Sorcerer: Shadow Sorcery'
+    type: image
+    _id: DMFmsYKJX3aibnJZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-HorrorSubclasses/assets/journal-art/journal-shadow.jpg
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandouts000.DMFmsYKJX3aibnJZ'
+  - sort: 800000
+    name: 'Warlock: Hexblade Patron'
+    type: image
+    _id: 55P9YYEOGPwO52RS
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-HorrorSubclasses/assets/journal-art/journal-hexblade.jpg
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandouts000.55P9YYEOGPwO52RS'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982249386
+  modifiedTime: 1774982249386
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaArtHandouts000'

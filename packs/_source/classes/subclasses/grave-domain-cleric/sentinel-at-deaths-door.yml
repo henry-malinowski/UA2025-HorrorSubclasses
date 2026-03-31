@@ -1,0 +1,115 @@
+folder: vtnphOr6LoWzC171
+name: Sentinel at Death's Door
+type: feat
+_id: uaclcSentinelatD
+img: icons/magic/unholy/beams-impact-pink.webp
+system:
+  activities:
+    70HYZdOBqi2F5QDP:
+      type: utility
+      name: Halve Damage
+      _id: 70HYZdOBqi2F5QDP
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: >-
+          When you or a Bloodied creature you can see within 30 feet of yourself
+          is hit with an attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: max(1,@abilities.wis.mod)
+  advancement: []
+  description:
+    value: >-
+      <p>When you or a &amp;Reference[Bloodied apply=false] creature you can see
+      within 30 feet of yourself is hit with an attack roll, you can take a
+      &amp;Reference[Reaction]{Reaction} to halve that attack’s damage. You can
+      use this feature a number of times equal to your Wisdom modifier (minimum
+      of once). You regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  identifier: sentinel-at-deaths-door
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: Grave Domain
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982482454
+  modifiedTime: 1774982482454
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaclcSentinelatD'

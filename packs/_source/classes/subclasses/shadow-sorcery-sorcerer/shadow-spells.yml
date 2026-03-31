@@ -1,0 +1,159 @@
+folder: bw7ASrQOvmFNLZNB
+name: Shadow Spells
+type: feat
+_id: uasrcShadowSpell
+img: icons/magic/death/hand-withered-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: d8cBJCXj5s0EE2lq
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: nTgicxJ7L3bvbHR4
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: yfFdYKNucabkdOFV
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Spells
+      _id: Vdph3ErDSWQkShIG
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplContagion0
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCreation00
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+  description:
+    value: >-
+      <p>When you reach a Sorcerer level specified in the Shadow Spells table,
+      you thereafter always have the listed spells
+      prepared.</p><table><caption>Shadow
+      Spells</caption><thead><tr><td>Sorcerer
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{Bane},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{Inflict
+      Wounds},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass
+      Without
+      Trace}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{Hunger
+      of Hadar},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{Summon
+      Undead}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv]{Greater
+      Invisibility},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal]{Phantasmal
+      Killer}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContagion0]{Contagion},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCreation00]{Creation}</em></td></tr></tbody></table><section
+      class="secret" id="secret-kL8H0ClyrUNajoht"><p><strong>Foundry
+      Note</strong></p><p>The spells will be automatically granted as you level
+      up.</p></section>
+    chat: ''
+  identifier: shadow-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '7'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Shadow Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983407986
+  modifiedTime: 1774983581734
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcShadowSpell'

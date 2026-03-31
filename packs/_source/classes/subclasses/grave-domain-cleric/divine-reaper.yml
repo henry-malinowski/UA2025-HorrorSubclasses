@@ -1,0 +1,190 @@
+folder: vtnphOr6LoWzC171
+name: Divine Reaper
+type: feat
+_id: uaclcDivineReape
+img: icons/magic/holy/angel-wings-gray.webp
+system:
+  activities:
+    y9ZdsRLRijLtnVcX:
+      type: utility
+      name: Enhanced Necromancy
+      _id: y9ZdsRLRijLtnVcX
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          When you cast a spell of level 5 or lower from the Necromancy school
+          that targets one creature or spell from the Grave Domain Spells table
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbclcChannelDiv
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    w5CXMVG1698QhUeF:
+      type: heal
+      name: Keeper of Souls
+      _id: w5CXMVG1698QhUeF
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When an enemy dies within 60 feet of you
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          special: ''
+          count: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 3*@classes.cleric.levels
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Your deep connection to this domain renders you a hallowed harbinger of
+      death, granting you the following benefits.</p><p><em><strong>Enhanced
+      Necromancy.</strong></em> When you cast a spell of level 5 or lower from
+      the Necromancy school that targets one creature or a spell from the
+      @UUID[Compendium.UA2025-HorrorSubclasses.classes.Item.uaclcSpellsGrave]{Grave
+      Domain Spells} table, you can expend a use of
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcChannelDiv]{Channel
+      Divinity} to target a second creature within the spell’s range. If the
+      spell requires costly or consumed &amp;Reference[Material]{Material
+      components}, you must provide Material components for each
+      target.</p><p><em><strong>Keeper of Souls.</strong></em> When an enemy
+      dies within 60 feet of you, you or one creature you can see within 60 feet
+      of yourself regains Hit Points equal to [[/healing
+      3*@classes.cleric.levels]]{three times your Cleric level}. You can’t use
+      this feature if you have the &amp;Reference[Incapacitated apply=false]
+      condition. Once you use this feature, you can’t use it again until you
+      finish a &amp;Reference[Short Rest]{Short} or &amp;Reference[Long
+      Rest].</p>
+    chat: ''
+  identifier: divine-reaper
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+  properties: []
+  requirements: Grave Domain
+  type:
+    value: class
+    subtype: channelDivinity
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982453060
+  modifiedTime: 1774982462477
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaclcDivineReape'

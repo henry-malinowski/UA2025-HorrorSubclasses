@@ -1,0 +1,18 @@
+type: Item
+folder: VvMY6iaFQ0tkUWcT
+name: Hollow Warden (Ranger)
+color: null
+sorting: a
+_id: mOgzy3zO2mfQhr5O
+description: ''
+sort: 400000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774971332677
+_key: '!folders!mOgzy3zO2mfQhr5O'

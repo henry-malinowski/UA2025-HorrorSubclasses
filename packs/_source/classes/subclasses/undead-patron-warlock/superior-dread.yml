@@ -1,0 +1,116 @@
+folder: swutpu2Fy3CKZGZ0
+name: Superior Dread
+type: feat
+_id: uawlkSuperiorDre
+img: icons/magic/control/silhouette-hold-change-green.webp
+system:
+  activities:
+    lD3vDlntNScLApMV:
+      type: heal
+      name: Vitality Siphon
+      _id: lD3vDlntNScLApMV
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: Once per tuurn when you deal Necrotic damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@abilities.cha.mod'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Form of Dread improves, granting you the following benefits while
+      you are using it.</p><p><em><strong>Flight.</strong></em> You have a Fly
+      Speed equal to your Speed and can hover.</p><p><em><strong>Profane
+      Casting.</strong></em> Whenever you cast a Warlock spell from the
+      Conjuration or Necromancy school, you cast it without any Verbal, Somatic,
+      or Material components, except Material components that are consumed by
+      the spell or that have a cost specified in the
+      spell.</p><p><em><strong>Vitality Siphon.</strong></em> Once per turn when
+      you deal Necrotic damage to a creature, you regain Hit Points equal to
+      your Charisma modifier (minimum of 1 Hit Point).</p>
+    chat: ''
+  identifier: superior-dread
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '9'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties: []
+  requirements: Undead Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774983466357
+  modifiedTime: 1774983466357
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkSuperiorDre'

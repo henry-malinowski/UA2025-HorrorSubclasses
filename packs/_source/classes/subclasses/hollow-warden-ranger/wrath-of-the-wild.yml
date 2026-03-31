@@ -1,0 +1,178 @@
+folder: mOgzy3zO2mfQhr5O
+name: Wrath of the Wild
+type: feat
+_id: uargrWrathoftheW
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+system:
+  activities:
+    BzEOshdBRw7gXP5y:
+      type: save
+      name: Unnerving Aura
+      _id: BzEOshdBRw7gXP5y
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: >-
+          When an enemy starts its turn within a 10-foot Emanation originating
+          from you
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: OfzxVqijDvg0XWmE
+          level: {}
+          onSave: false
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: true
+          type: enemy
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: true
+              formula: '@classes.ranger.levels * floor(@classes.ranger.levels/11)'
+            bonus: ''
+            types:
+              - necrotic
+              - poison
+              - psychic
+            scaling:
+              number: 1
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You draw on the strange and ancient horrors of the land for power. When
+      you cast
+      <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s
+      Mark}</em>, you transform, gaining the following benefits for the duration
+      of the spell.</p><p><em><strong>Ancient Armor.</strong></em> You gain a
+      bonus to your AC equal to your Wisdom modifier (minimum of +1). Your body
+      is wreathed in rotten bark or beastly
+      bristles.</p><p><em><strong>Unnerving Aura.</strong></em> When an enemy
+      starts its turn within a 10-foot Emanation originating from you, it makes
+      a Wisdom saving throw against your spell save DC. On a failed save, it can
+      take either an action or a Bonus Action on this turn, not both. Your
+      shadow lengthens and twists around you, or you sprout unnatural growths
+      like bloody antlers or putrid fangs.</p><section class="secret"
+      id="secret-jUGxhwYgQPFEdAaA"><p><strong>Foundry Note</strong></p><p>This
+      feature adds an Active Affect to your sheet which you can enable for the
+      duration of your Hunter's Mark.</p></section>
+    chat: ''
+  identifier: wrath-of-the-wild
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Hollow Warden
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Ancient Armor
+    img: icons/equipment/shoulder/shoulderpad-cloth-green.webp
+    origin: Compendium.UA2025-HorrorSubclasses.classes.Item.uargrWrathoftheW
+    _id: bffCseCeGSKpC4DW
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: max(1,@abilities.wis.mod)
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For the duration of your Hunter's mark you gain a bonus to your AC
+      equal to your Wisdom modifier (minimum of +1)</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uargrWrathoftheW.bffCseCeGSKpC4DW'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774982559143
+  modifiedTime: 1774982559237
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargrWrathoftheW'
